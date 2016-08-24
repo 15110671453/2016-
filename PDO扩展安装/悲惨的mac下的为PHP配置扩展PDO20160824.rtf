@@ -1,0 +1,1747 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red180\green36\blue25;\red47\green180\blue29;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs22 \cf0 \CocoaLigature0 Last login: Wed Aug 24 08:56:08 on console\
+localhost:~ lixiaoyan$ cd /usr/local/etc\
+localhost:etc lixiaoyan$ ls -la\
+total 24\
+drwxrwxr-x   9 lixiaoyan  admin   306  7  7 17:40 .\
+drwxrwxr-x  27 lixiaoyan  admin   918  8 22 15:48 ..\
+drwxr-xr-x   3 lixiaoyan  admin   102  8 22 15:48 bash_completion.d\
+-rw-r--r--   1 lixiaoyan  admin  1126  7  6 17:51 my.cnf\
+drwxr-xr-x  18 lixiaoyan  admin   612  8 23 17:06 nginx\
+lrwxr-xr-x   1 lixiaoyan  admin    37  7  7 17:30 odbc.ini -> ../Cellar/unixodbc/2.3.4/etc/odbc.ini\
+lrwxr-xr-x   1 lixiaoyan  admin    41  7  7 17:30 odbcinst.ini -> ../Cellar/unixodbc/2.3.4/etc/odbcinst.ini\
+drwxr-xr-x   7 lixiaoyan  admin   238  6 22 12:34 openssl\
+drwxr-xr-x   3 lixiaoyan  admin   102  7  7 17:40 php\
+localhost:etc lixiaoyan$ cd php/\
+localhost:php lixiaoyan$ ls -la\
+total 0\
+drwxr-xr-x  3 lixiaoyan  admin  102  7  7 17:40 .\
+drwxrwxr-x  9 lixiaoyan  admin  306  7  7 17:40 ..\
+drwxr-xr-x  8 lixiaoyan  admin  272  8 23 17:13 7.0\
+localhost:php lixiaoyan$ cd 7.0/\
+localhost:7.0 lixiaoyan$ ls -la\
+total 320\
+drwxr-xr-x  8 lixiaoyan  admin    272  8 23 17:13 .\
+drwxr-xr-x  3 lixiaoyan  admin    102  7  7 17:40 ..\
+-rw-r--r--  1 lixiaoyan  admin   4484  7  7 17:40 php-fpm.conf\
+-rw-r--r--  1 lixiaoyan  admin   4490  8 23 17:55 php-fpm.conf.default\
+-rw-r--r--  1 lixiaoyan  admin   4492  8 23 17:55 php-fpm.conf.default.default\
+drwxr-xr-x  4 lixiaoyan  admin    136  8 23 17:14 php-fpm.d\
+-rw-r--r--  1 lixiaoyan  admin  68903  7 29 16:27 php.ini\
+-rw-r--r--  1 lixiaoyan  admin  69087  8 23 17:55 php.ini.default\
+localhost:7.0 lixiaoyan$ sudo vi php.ini\
+Password:\
+localhost:7.0 lixiaoyan$ cd ~/Desktop/\
+localhost:Desktop lixiaoyan$ cd PDO_MYSQL-1.0.2-2/\
+localhost:PDO_MYSQL-1.0.2-2 lixiaoyan$ phpize\
+Cannot find config.m4. \
+Make sure that you run '/usr/local/Cellar/php70/7.0.10_1/bin/phpize' in the top level source directory of the module\
+\
+localhost:PDO_MYSQL-1.0.2-2 lixiaoyan$ cd PDO_MYSQL-1.0.2/\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ phpize \
+Configuring for:\
+PHP Api Version:         20151012\
+Zend Module Api No:      20151012\
+Zend Extension Api No:   320151012\
+./localhost:PDO_MYSQL-1.0.2 lixiaoyan$ cd $PHP_HOME\
+localhost:7.0.10_1 lixiaoyan$ ls -la\
+total 176\
+drwxr-xr-x  15 lixiaoyan  admin    510  8 23 17:55 .\
+drwxr-xr-x   3 lixiaoyan  admin    102  8 23 17:55 ..\
+-rw-r--r--   1 lixiaoyan  admin    859  8 23 17:55 INSTALL_RECEIPT.json\
+-rw-r--r--   1 lixiaoyan  admin   3218  8 18 03:52 LICENSE\
+-rw-r--r--   1 lixiaoyan  admin  71900  8 18 03:52 NEWS\
+-rw-r--r--   1 lixiaoyan  admin   1473  8 18 03:52 README.md\
+drwxr-xr-x   8 lixiaoyan  admin    272  8 23 17:55 bin\
+-rw-r--r--   1 lixiaoyan  admin    753  8 23 17:55 homebrew.mxcl.php70.plist\
+drwxr-xr-x   3 lixiaoyan  admin    102  8 18 03:52 include\
+drwxr-xr-x   3 lixiaoyan  admin    102  8 18 03:52 lib\
+drwxr-xr-x   3 lixiaoyan  admin    102  8 18 03:52 libexec\
+drwxr-xr-x   3 lixiaoyan  admin    102  8 18 03:52 php\
+drwxr-xr-x   4 lixiaoyan  admin    136  8 23 17:55 sbin\
+drwxr-xr-x   3 lixiaoyan  admin    102  8 18 03:52 share\
+drwxr-xr-x   3 lixiaoyan  admin    102  8 18 03:52 var\
+localhost:7.0.10_1 lixiaoyan$ cd bin\
+localhost:bin lixiaoyan$ ls -la\
+total 45656\
+drwxr-xr-x   8 lixiaoyan  admin       272  8 23 17:55 .\
+drwxr-xr-x  15 lixiaoyan  admin       510  8 23 17:55 ..\
+lrwxr-xr-x   1 lixiaoyan  admin         9  8 18 03:52 phar -> phar.phar\
+-rwxr-xr-x   1 lixiaoyan  admin     14851  8 23 17:55 phar.phar\
+-rwxr-xr-x   1 lixiaoyan  admin  11695732  8 23 17:55 php\
+-rwxr-xr-x   1 lixiaoyan  admin  11640700  8 23 17:55 php-cgi\
+-rwxr-xr-x   1 lixiaoyan  admin      4277  8 23 17:55 php-config\
+-rwxr-xr-x   1 lixiaoyan  admin      4623  8 23 17:55 phpize\
+localhost:bin lixiaoyan$ pwd\
+/usr/local/Cellar/php70/7.0.10_1/bin\
+localhost:bin lixiaoyan$ echo $MYSQL_HOME\
+/usr/local/mysql-5.7.13-osx10.11-x86_64\
+localhost:bin lixiaoyan$ cd $MYSQL_HOME\
+localhost:mysql-5.7.13-osx10.11-x86_64 lixiaoyan$ ls -la\
+total 48\
+drwxr-xr-x  12 root       wheel     408  7 12 15:50 .\
+drwxrwxr-x  27 lixiaoyan  admin     918  8 22 15:48 ..\
+-rw-r--r--   1 root       wheel   17987  5 25 13:50 COPYING\
+-rw-r--r--   1 root       wheel    2478  5 25 13:50 README\
+drwxr-xr-x  40 root       wheel    1360  5 25 17:14 bin\
+drwxr-x---  13 _mysql     _mysql    442  7 29 18:14 data\
+drwxr-xr-x   5 root       wheel     170  5 25 17:14 docs\
+drwxr-xr-x  50 root       wheel    1700  5 25 17:13 include\
+drwxr-xr-x  11 root       wheel     374  7 12 15:50 lib\
+drwxr-xr-x   4 root       wheel     136  5 25 17:14 man\
+drwxr-xr-x  39 root       wheel    1326  5 25 17:14 share\
+drwxr-xr-x   7 root       wheel     238  5 25 17:14 support-files\
+localhost:mysql-5.7.13-osx10.11-x86_64 lixiaoyan$ cd bin\
+localhost:bin lixiaoyan$ ls -la\
+total 585208\
+drwxr-xr-x  40 root  wheel      1360  5 25 17:14 .\
+drwxr-xr-x  12 root  wheel       408  7 12 15:50 ..\
+-rwxr-xr-x   1 root  wheel   4594960  5 25 17:14 innochecksum\
+-rwxr-xr-x   1 root  wheel    105072  5 25 17:14 lz4_decompress\
+-rwxr-xr-x   1 root  wheel   3793312  5 25 17:14 my_print_defaults\
+-rwxr-xr-x   1 root  wheel   4164160  5 25 17:14 myisam_ftdump\
+-rwxr-xr-x   1 root  wheel   4279008  5 25 17:14 myisamchk\
+-rwxr-xr-x   1 root  wheel   4112032  5 25 17:14 myisamlog\
+-rwxr-xr-x   1 root  wheel   4188864  5 25 17:14 myisampack\
+-rwxr-xr-x   1 root  wheel   5084096  5 25 17:14 mysql\
+-rwxr-xr-x   1 root  wheel  28767424  5 25 17:14 mysql_client_test_embedded\
+-rwxr-xr-x   1 root  wheel      4813  5 25 16:18 mysql_config\
+-rwxr-xr-x   1 root  wheel   4462640  5 25 17:14 mysql_config_editor\
+-rwxr-xr-x   1 root  wheel  28614464  5 25 17:14 mysql_embedded\
+-rwxr-xr-x   1 root  wheel   5980064  5 25 17:14 mysql_install_db\
+-rwxr-xr-x   1 root  wheel   3803760  5 25 17:14 mysql_plugin\
+-rwxr-xr-x   1 root  wheel   4727168  5 25 17:14 mysql_secure_installation\
+-rwxr-xr-x   1 root  wheel   3875712  5 25 17:14 mysql_ssl_rsa_setup\
+-rwxr-xr-x   1 root  wheel   3727120  5 25 17:14 mysql_tzinfo_to_sql\
+-rwxr-xr-x   1 root  wheel   5559200  5 25 17:14 mysql_upgrade\
+-rwxr-xr-x   1 root  wheel   4741072  5 25 17:14 mysqladmin\
+-rwxr-xr-x   1 root  wheel   5197680  5 25 17:14 mysqlbinlog\
+-rwxr-xr-x   1 root  wheel   4761920  5 25 17:14 mysqlcheck\
+-rwxr-xr-x   1 root  wheel  30794000  5 25 17:14 mysqld\
+-rwxr-xr-x   1 root  wheel  57447712  5 25 17:14 mysqld-debug\
+-rwxr-xr-x   1 root  wheel     26705  5 25 16:18 mysqld_multi\
+-rwxr-xr-x   1 root  wheel     26317  5 25 16:18 mysqld_safe\
+-rwxr-xr-x   1 root  wheel   4819856  5 25 17:14 mysqldump\
+-rwxr-xr-x   1 root  wheel      7424  5 25 16:18 mysqldumpslow\
+-rwxr-xr-x   1 root  wheel   4733056  5 25 17:14 mysqlimport\
+-rwxr-xr-x   1 root  wheel   5721808  5 25 17:14 mysqlpump\
+-rwxr-xr-x   1 root  wheel   4729344  5 25 17:14 mysqlshow\
+-rwxr-xr-x   1 root  wheel   4755968  5 25 17:14 mysqlslap\
+-rwxr-xr-x   1 root  wheel  28569472  5 25 17:14 mysqltest_embedded\
+-rwxr-xr-x   1 root  wheel   8060672  5 25 17:14 mysqlxtest\
+-rwxr-xr-x   1 root  wheel   3923328  5 25 17:14 perror\
+-rwxr-xr-x   1 root  wheel   3740800  5 25 17:14 replace\
+-rwxr-xr-x   1 root  wheel   3800736  5 25 17:14 resolve_stack_dump\
+-rwxr-xr-x   1 root  wheel   3793056  5 25 17:14 resolveip\
+-rwxr-xr-x   1 root  wheel     64960  5 25 17:14 zlib_decompress\
+localhost:bin lixiaoyan$ cd /usr/local\
+localhost:local lixiaoyan$ ls -la\
+total 64\
+drwxrwxr-x   27 lixiaoyan  admin   918  8 22 15:48 .\
+drwxr-xr-x@  11 root       wheel   374  7 13  2015 ..\
+drwxr-xr-x   15 lixiaoyan  admin   510  8 23 17:55 .git\
+drwxr-xr-x    5 lixiaoyan  admin   170  8 22 15:48 .github\
+-rw-r--r--    1 lixiaoyan  admin  1141  8 22 15:48 .gitignore\
+-rw-r--r--    1 lixiaoyan  admin   253  8 22 15:48 .travis.yml\
+-rw-r--r--    1 lixiaoyan  admin   291  8 22 15:48 .yardopts\
+-rw-r--r--    1 lixiaoyan  admin  3161  8 22 15:48 CODEOFCONDUCT.md\
+drwxr-xr-x   22 lixiaoyan  admin   748  8 23 17:55 Cellar\
+-rw-r--r--    1 lixiaoyan  admin  1241  8 22 15:48 LICENSE.txt\
+drwxr-xr-x    8 lixiaoyan  admin   272  8 23 15:20 Library\
+-rw-r--r--    1 lixiaoyan  admin  5665  8 22 15:48 README.md\
+drwxrwxr-x  113 lixiaoyan  admin  3842  8 23 17:55 bin\
+drwxrwxr-x    9 lixiaoyan  admin   306  7  7 17:40 etc\
+drwxr-xr-x    9 root       admin   306  6 15 13:53 gcc6.1.0\
+drwxr-xr-x    7 root       wheel   238  6 14 10:45 gcc6.1.0_source\
+drwxr-xr-x   11 root       wheel   374  1  5  2016 git\
+drwxrwxr-x   63 lixiaoyan  admin  2142  8 23 17:55 include\
+drwxrwxr-x   76 lixiaoyan  admin  2584  8 23 17:55 lib\
+lrwxr-xr-x    1 root       wheel    28  7 12 15:49 mysql -> mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x   12 root       wheel   408  7 12 15:50 mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x    2 lixiaoyan  admin    68  7  6 17:39 mysqltmp\
+drwxr-xr-x   21 lixiaoyan  admin   714  8 23 17:55 opt\
+drwxr-xr-x    7 lixiaoyan  admin   238  8 23 17:55 sbin\
+drwxrwxr-x   15 lixiaoyan  admin   510  8 22 15:51 share\
+drwxr-xr-x   10 root       wheel   340  6 13 14:50 ssl\
+drwxr-xr-x    7 lixiaoyan  admin   238  7  7 17:22 var\
+localhost:local lixiaoyan$ cd ~/Desktop/PDO_MYSQL-1.0.2-2/\
+localhost:PDO_MYSQL-1.0.2-2 lixiaoyan$ cd PDO_MYSQL-1.0.2/\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ phpize\
+Configuring for:\
+PHP Api Version:         20151012\
+Zend Module Api No:      20151012\
+Zend Extension Api No:   320151012\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/mkdep.awk: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/scan_makefile_in.awk: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/shtool: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/libtool.m4: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/acinclude.m4: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/Makefile.global: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/config.sub: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/config.guess: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/ltmain.sh: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/run-tests.php: Permission denied\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ pwd\
+/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql\
+checking for grep that handles long lines and -e... /usr/bin/grep\
+checking for egrep... /usr/bin/grep -E\
+checking for a sed that does not truncate output... /usr/bin/sed\
+checking for cc... cc\
+checking whether the C compiler works... yes\
+checking for C compiler default output file name... a.out\
+checking for suffix of executables... \
+checking whether we are cross compiling... no\
+checking for suffix of object files... o\
+checking whether we are using the GNU C compiler... yes\
+checking whether cc accepts -g... yes\
+checking for cc option to accept ISO C89... none needed\
+checking how to run the C preprocessor... cc -E\
+checking for icc... no\
+checking for suncc... no\
+checking whether cc understands -c and -o together... yes\
+checking for system library directory... lib\
+checking if compiler supports -R... no\
+checking if compiler supports -Wl,-rpath,... yes\
+checking build system type... x86_64-apple-darwin14.5.0\
+checking host system type... x86_64-apple-darwin14.5.0\
+checking target system type... x86_64-apple-darwin14.5.0\
+checking for PHP prefix... /usr/local/Cellar/php70/7.0.10_1\
+checking for PHP includes... -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib\
+checking for PHP extension directory... /usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012\
+checking for PHP installed headers prefix... /usr/local/Cellar/php70/7.0.10_1/include/php\
+checking if debug is enabled... no\
+checking if zts is enabled... no\
+checking for re2c... no\
+configure: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.\
+checking for gawk... no\
+checking for nawk... no\
+checking for awk... awk\
+checking if awk is broken... no\
+checking for MySQL support for PDO... yes, shared\
+checking for mysql_config... /usr/local/mysql/bin/mysql_config\
+checking for mysql_query in -lmysqlclient... yes\
+checking for mysql_commit... yes\
+checking for mysql_stmt_prepare... yes\
+checking for mysql_next_result... yes\
+checking for mysql_sqlstate... yes\
+checking for PDO includes... checking for PDO includes... /usr/local/Cellar/php70/7.0.10_1/include/php/ext\
+checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld\
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no\
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r\
+checking for BSD-compatible nm... /usr/bin/nm\
+checking whether ln -s works... yes\
+checking how to recognize dependent libraries... pass_all\
+checking for ANSI C header files... yes\
+checking for sys/types.h... yes\
+checking for sys/stat.h... yes\
+checking for stdlib.h... yes\
+checking for string.h... yes\
+checking for memory.h... yes\
+checking for strings.h... yes\
+checking for inttypes.h... yes\
+checking for stdint.h... yes\
+checking for unistd.h... yes\
+checking dlfcn.h usability... yes\
+checking dlfcn.h presence... yes\
+checking for dlfcn.h... yes\
+checking the maximum length of command line arguments... 196608\
+checking command to parse /usr/bin/nm output from cc object... ok\
+checking for objdir... .libs\
+checking for ar... ar\
+checking for ranlib... ranlib\
+checking for strip... strip\
+checking for dsymutil... dsymutil\
+checking for nmedit... nmedit\
+checking for -single_module linker flag... yes\
+checking for -exported_symbols_list linker flag... yes\
+checking if cc supports -fno-rtti -fno-exceptions... yes\
+checking for cc option to produce PIC... -fno-common\
+checking if cc PIC flag -fno-common works... yes\
+checking if cc static flag -static works... no\
+checking if cc supports -c -o file.o... yes\
+checking whether the cc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes\
+checking dynamic linker characteristics... darwin14.5.0 dyld\
+checking how to hardcode library paths into programs... immediate\
+checking whether stripping libraries is possible... yes\
+checking if libtool supports shared libraries... yes\
+checking whether to build shared libraries... yes\
+checking whether to build static libraries... no\
+\
+creating libtool\
+appending configuration tag "CXX" to libtool\
+configure: creating ./config.status\
+config.status: creating config.h\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make \
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$  ln -s /usr/local/mysql/include/* /usr/local/include/\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$  make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+ cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ cd /usr/local\
+localhost:local lixiaoyan$ ls -la\
+total 64\
+drwxrwxr-x   27 lixiaoyan  admin   918  8 22 15:48 .\
+drwxr-xr-x@  11 root       wheel   374  7 13  2015 ..\
+drwxr-xr-x   15 lixiaoyan  admin   510  8 23 17:55 .git\
+drwxr-xr-x    5 lixiaoyan  admin   170  8 22 15:48 .github\
+-rw-r--r--    1 lixiaoyan  admin  1141  8 22 15:48 .gitignore\
+-rw-r--r--    1 lixiaoyan  admin   253  8 22 15:48 .travis.yml\
+-rw-r--r--    1 lixiaoyan  admin   291  8 22 15:48 .yardopts\
+-rw-r--r--    1 lixiaoyan  admin  3161  8 22 15:48 CODEOFCONDUCT.md\
+drwxr-xr-x   22 lixiaoyan  admin   748  8 23 17:55 Cellar\
+-rw-r--r--    1 lixiaoyan  admin  1241  8 22 15:48 LICENSE.txt\
+drwxr-xr-x    8 lixiaoyan  admin   272  8 23 15:20 Library\
+-rw-r--r--    1 lixiaoyan  admin  5665  8 22 15:48 README.md\
+drwxrwxr-x  113 lixiaoyan  admin  3842  8 23 17:55 bin\
+drwxrwxr-x    9 lixiaoyan  admin   306  7  7 17:40 etc\
+drwxr-xr-x    9 root       admin   306  6 15 13:53 gcc6.1.0\
+drwxr-xr-x    7 root       wheel   238  6 14 10:45 gcc6.1.0_source\
+drwxr-xr-x   11 root       wheel   374  1  5  2016 git\
+drwxrwxr-x  111 lixiaoyan  admin  3774  8 24 14:22 include\
+drwxrwxr-x   76 lixiaoyan  admin  2584  8 23 17:55 lib\
+lrwxr-xr-x    1 root       wheel    28  7 12 15:49 mysql -> mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x   12 root       wheel   408  7 12 15:50 mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x    2 lixiaoyan  admin    68  7  6 17:39 mysqltmp\
+drwxr-xr-x   21 lixiaoyan  admin   714  8 23 17:55 opt\
+drwxr-xr-x    7 lixiaoyan  admin   238  8 23 17:55 sbin\
+drwxrwxr-x   15 lixiaoyan  admin   510  8 22 15:51 share\
+drwxr-xr-x   10 root       wheel   340  6 13 14:50 ssl\
+drwxr-xr-x    7 lixiaoyan  admin   238  7  7 17:22 var\
+localhost:local lixiaoyan$ cd mysql\
+localhost:mysql lixiaoyan$ ls -la\
+total 48\
+drwxr-xr-x  12 root       wheel     408  7 12 15:50 .\
+drwxrwxr-x  27 lixiaoyan  admin     918  8 22 15:48 ..\
+-rw-r--r--   1 root       wheel   17987  5 25 13:50 COPYING\
+-rw-r--r--   1 root       wheel    2478  5 25 13:50 README\
+drwxr-xr-x  40 root       wheel    1360  5 25 17:14 bin\
+drwxr-x---  13 _mysql     _mysql    442  7 29 18:14 data\
+drwxr-xr-x   5 root       wheel     170  5 25 17:14 docs\
+drwxr-xr-x  50 root       wheel    1700  5 25 17:13 include\
+drwxr-xr-x  11 root       wheel     374  7 12 15:50 lib\
+drwxr-xr-x   4 root       wheel     136  5 25 17:14 man\
+drwxr-xr-x  39 root       wheel    1326  5 25 17:14 share\
+drwxr-xr-x   7 root       wheel     238  5 25 17:14 support-files\
+localhost:mysql lixiaoyan$ cd include/\
+localhost:include lixiaoyan$ ls -la\
+total 1208\
+drwxr-xr-x  50 root  wheel    1700  5 25 17:13 .\
+drwxr-xr-x  12 root  wheel     408  7 12 15:50 ..\
+-rw-r--r--   1 root  wheel    3654  5 25 13:50 big_endian.h\
+-rw-r--r--   1 root  wheel    1967  5 25 13:50 binary_log_types.h\
+-rw-r--r--   1 root  wheel    2555  5 25 13:50 byte_order_generic.h\
+-rw-r--r--   1 root  wheel    2190  5 25 13:50 byte_order_generic_x86.h\
+-rw-r--r--   1 root  wheel    5175  5 25 13:50 decimal.h\
+-rw-r--r--   1 root  wheel    4350  5 25 13:50 errmsg.h\
+-rw-r--r--   1 root  wheel    7489  5 25 13:50 keycache.h\
+-rw-r--r--   1 root  wheel    3233  5 25 13:50 little_endian.h\
+-rw-r--r--   1 root  wheel   34282  5 25 13:50 m_ctype.h\
+-rw-r--r--   1 root  wheel   10722  5 25 13:50 m_string.h\
+-rw-r--r--   1 root  wheel    2312  5 25 13:50 my_alloc.h\
+-rw-r--r--   1 root  wheel    5488  5 25 13:50 my_byteorder.h\
+-rw-r--r--   1 root  wheel    1667  5 25 13:50 my_command.h\
+-rw-r--r--   1 root  wheel    5130  5 25 13:50 my_compiler.h\
+-rw-r--r--   1 root  wheel   11835  5 25 16:18 my_config.h\
+-rw-r--r--   1 root  wheel    9391  5 25 13:50 my_dbug.h\
+-rw-r--r--   1 root  wheel    3012  5 25 13:50 my_dir.h\
+-rw-r--r--   1 root  wheel    6456  5 25 13:50 my_getopt.h\
+-rw-r--r--   1 root  wheel   22412  5 25 13:50 my_global.h\
+-rw-r--r--   1 root  wheel    1506  5 25 13:50 my_list.h\
+-rw-r--r--   1 root  wheel   39204  5 25 13:50 my_sys.h\
+-rw-r--r--   1 root  wheel    4686  5 25 13:50 my_thread.h\
+-rw-r--r--   1 root  wheel    2566  5 25 13:50 my_thread_local.h\
+-rw-r--r--   1 root  wheel    2821  5 25 13:50 my_xml.h\
+drwxr-xr-x  48 root  wheel    1632  5 25 17:13 mysql\
+-rw-r--r--   1 root  wheel   29172  5 25 13:50 mysql.h\
+-rw-r--r--   1 root  wheel   24466  5 25 13:50 mysql_com.h\
+-rw-r--r--   1 root  wheel    1313  5 25 13:50 mysql_com_server.h\
+-rw-r--r--   1 root  wheel    1142  5 25 13:50 mysql_embed.h\
+-rw-r--r--   1 root  wheel    2172  5 25 13:50 mysql_time.h\
+-rw-r--r--   1 root  wheel    1013  5 25 16:18 mysql_version.h\
+-rw-r--r--   1 root  wheel  118402  5 25 16:20 mysqld_ername.h\
+-rw-r--r--   1 root  wheel   43196  5 25 16:20 mysqld_error.h\
+-rw-r--r--   1 root  wheel   26101  5 25 13:50 plugin.h\
+-rw-r--r--   1 root  wheel   17543  5 25 13:50 plugin_audit.h\
+-rw-r--r--   1 root  wheel    7644  5 25 13:50 plugin_ftparser.h\
+-rw-r--r--   1 root  wheel    5664  5 25 13:50 plugin_group_replication.h\
+-rw-r--r--   1 root  wheel    3741  5 25 13:50 plugin_keyring.h\
+-rw-r--r--   1 root  wheel    1583  5 25 13:50 plugin_validate_password.h\
+-rw-r--r--   1 root  wheel    7711  5 25 13:50 sql_common.h\
+-rw-r--r--   1 root  wheel   14902  5 25 16:20 sql_state.h\
+-rw-r--r--   1 root  wheel    2222  5 25 13:50 sslopt-case.h\
+-rw-r--r--   1 root  wheel    2878  5 25 13:50 sslopt-longopts.h\
+-rw-r--r--   1 root  wheel    2884  5 25 13:50 sslopt-vars.h\
+-rw-r--r--   1 root  wheel    5148  5 25 13:50 thr_cond.h\
+-rw-r--r--   1 root  wheel    5679  5 25 13:50 thr_mutex.h\
+-rw-r--r--   1 root  wheel    6044  5 25 13:50 thr_rwlock.h\
+-rw-r--r--   1 root  wheel    2282  5 25 13:50 typelib.h\
+localhost:include lixiaoyan$ cd ../\
+localhost:mysql lixiaoyan$  cd ../\
+localhost:local lixiaoyan$ ls -la\
+total 64\
+drwxrwxr-x   27 lixiaoyan  admin   918  8 22 15:48 .\
+drwxr-xr-x@  11 root       wheel   374  7 13  2015 ..\
+drwxr-xr-x   15 lixiaoyan  admin   510  8 23 17:55 .git\
+drwxr-xr-x    5 lixiaoyan  admin   170  8 22 15:48 .github\
+-rw-r--r--    1 lixiaoyan  admin  1141  8 22 15:48 .gitignore\
+-rw-r--r--    1 lixiaoyan  admin   253  8 22 15:48 .travis.yml\
+-rw-r--r--    1 lixiaoyan  admin   291  8 22 15:48 .yardopts\
+-rw-r--r--    1 lixiaoyan  admin  3161  8 22 15:48 CODEOFCONDUCT.md\
+drwxr-xr-x   22 lixiaoyan  admin   748  8 23 17:55 Cellar\
+-rw-r--r--    1 lixiaoyan  admin  1241  8 22 15:48 LICENSE.txt\
+drwxr-xr-x    8 lixiaoyan  admin   272  8 23 15:20 Library\
+-rw-r--r--    1 lixiaoyan  admin  5665  8 22 15:48 README.md\
+drwxrwxr-x  113 lixiaoyan  admin  3842  8 23 17:55 bin\
+drwxrwxr-x    9 lixiaoyan  admin   306  7  7 17:40 etc\
+drwxr-xr-x    9 root       admin   306  6 15 13:53 gcc6.1.0\
+drwxr-xr-x    7 root       wheel   238  6 14 10:45 gcc6.1.0_source\
+drwxr-xr-x   11 root       wheel   374  1  5  2016 git\
+drwxrwxr-x  111 lixiaoyan  admin  3774  8 24 14:22 include\
+drwxrwxr-x   76 lixiaoyan  admin  2584  8 23 17:55 lib\
+lrwxr-xr-x    1 root       wheel    28  7 12 15:49 mysql -> mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x   12 root       wheel   408  7 12 15:50 mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x    2 lixiaoyan  admin    68  7  6 17:39 mysqltmp\
+drwxr-xr-x   21 lixiaoyan  admin   714  8 23 17:55 opt\
+drwxr-xr-x    7 lixiaoyan  admin   238  8 23 17:55 sbin\
+drwxrwxr-x   15 lixiaoyan  admin   510  8 22 15:51 share\
+drwxr-xr-x   10 root       wheel   340  6 13 14:50 ssl\
+drwxr-xr-x    7 lixiaoyan  admin   238  7  7 17:22 var\
+localhost:local lixiaoyan$ cd include/\
+localhost:include lixiaoyan$ ls -la\
+total 992\
+drwxrwxr-x  111 lixiaoyan  admin   3774  8 24 14:22 .\
+drwxrwxr-x   27 lixiaoyan  admin    918  8 22 15:48 ..\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 autotest.h -> ../Cellar/unixodbc/2.3.4/include/autotest.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 big_endian.h -> /usr/local/mysql/include/big_endian.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  8 24 14:22 binary_log_types.h -> /usr/local/mysql/include/binary_log_types.h\
+lrwxr-xr-x    1 lixiaoyan  admin     45  8 24 14:22 byte_order_generic.h -> /usr/local/mysql/include/byte_order_generic.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  8 24 14:22 byte_order_generic_x86.h -> /usr/local/mysql/include/byte_order_generic_x86.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 decimal.h -> /usr/local/mysql/include/decimal.h\
+lrwxr-xr-x    1 lixiaoyan  admin     48  7  7 17:22 ecpg_config.h -> ../Cellar/postgresql/9.5.3/include/ecpg_config.h\
+lrwxr-xr-x    1 lixiaoyan  admin     50  7  7 17:22 ecpg_informix.h -> ../Cellar/postgresql/9.5.3/include/ecpg_informix.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:22 ecpgerrno.h -> ../Cellar/postgresql/9.5.3/include/ecpgerrno.h\
+lrwxr-xr-x    1 lixiaoyan  admin     44  7  7 17:22 ecpglib.h -> ../Cellar/postgresql/9.5.3/include/ecpglib.h\
+lrwxr-xr-x    1 lixiaoyan  admin     45  7  7 17:22 ecpgtype.h -> ../Cellar/postgresql/9.5.3/include/ecpgtype.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 errmsg.h -> /usr/local/mysql/include/errmsg.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 23 15:22 freetype2 -> ../Cellar/freetype/2.6.5/include/freetype2\
+lrwxr-xr-x    1 lixiaoyan  admin     47  8 22 15:51 gpg-error.h -> ../Cellar/libgpg-error/1.24/include/gpg-error.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  7  7 17:30 imap -> ../Cellar/imap-uw/2007f/include/imap\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:22 informix -> ../Cellar/postgresql/9.5.3/include/informix\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:22 internal -> ../Cellar/postgresql/9.5.3/include/internal\
+lrwxr-xr-x    1 lixiaoyan  admin     35  7  7 17:30 jconfig.h -> ../Cellar/jpeg/8d/include/jconfig.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  7  7 17:30 jerror.h -> ../Cellar/jpeg/8d/include/jerror.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  7  7 17:30 jmorecfg.h -> ../Cellar/jpeg/8d/include/jmorecfg.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  7  7 17:30 jpeglib.h -> ../Cellar/jpeg/8d/include/jpeglib.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 keycache.h -> /usr/local/mysql/include/keycache.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 22 15:52 ksba.h -> ../Cellar/libksba/1.3.4_1/include/ksba.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  8 22 15:51 libltdl -> ../Cellar/libtool/2.4.6_1/include/libltdl\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 23 15:21 libpng16 -> ../Cellar/libpng/1.6.24/include/libpng16\
+lrwxr-xr-x    1 lixiaoyan  admin     40  7  7 17:22 libpq -> ../Cellar/postgresql/9.5.3/include/libpq\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 libpq-events.h -> ../Cellar/postgresql/9.5.3/include/libpq-events.h\
+lrwxr-xr-x    1 lixiaoyan  admin     45  7  7 17:22 libpq-fe.h -> ../Cellar/postgresql/9.5.3/include/libpq-fe.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 24 14:22 little_endian.h -> /usr/local/mysql/include/little_endian.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 22 15:51 ltdl.h -> ../Cellar/libtool/2.4.6_1/include/ltdl.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 m_ctype.h -> /usr/local/mysql/include/m_ctype.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 m_string.h -> /usr/local/mysql/include/m_string.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 my_alloc.h -> /usr/local/mysql/include/my_alloc.h\
+lrwxr-xr-x    1 lixiaoyan  admin     39  8 24 14:22 my_byteorder.h -> /usr/local/mysql/include/my_byteorder.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 my_command.h -> /usr/local/mysql/include/my_command.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 my_compiler.h -> /usr/local/mysql/include/my_compiler.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_config.h -> /usr/local/mysql/include/my_config.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 my_dbug.h -> /usr/local/mysql/include/my_dbug.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 my_dir.h -> /usr/local/mysql/include/my_dir.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_getopt.h -> /usr/local/mysql/include/my_getopt.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_global.h -> /usr/local/mysql/include/my_global.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 my_list.h -> /usr/local/mysql/include/my_list.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 my_sys.h -> /usr/local/mysql/include/my_sys.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_thread.h -> /usr/local/mysql/include/my_thread.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 24 14:22 my_thread_local.h -> /usr/local/mysql/include/my_thread_local.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 my_xml.h -> /usr/local/mysql/include/my_xml.h\
+lrwxr-xr-x    1 lixiaoyan  admin     30  8 24 14:22 mysql -> /usr/local/mysql/include/mysql\
+lrwxr-xr-x    1 lixiaoyan  admin     32  8 24 14:22 mysql.h -> /usr/local/mysql/include/mysql.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 mysql_com.h -> /usr/local/mysql/include/mysql_com.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  8 24 14:22 mysql_com_server.h -> /usr/local/mysql/include/mysql_com_server.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 mysql_embed.h -> /usr/local/mysql/include/mysql_embed.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 mysql_time.h -> /usr/local/mysql/include/mysql_time.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 24 14:22 mysql_version.h -> /usr/local/mysql/include/mysql_version.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 24 14:22 mysqld_ername.h -> /usr/local/mysql/include/mysqld_ername.h\
+lrwxr-xr-x    1 lixiaoyan  admin     39  8 24 14:22 mysqld_error.h -> /usr/local/mysql/include/mysqld_error.h\
+drwxrwxr-x   39 lixiaoyan  staff   1326  4 13 17:27 node\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 odbcinst.h -> ../Cellar/unixodbc/2.3.4/include/odbcinst.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:30 odbcinstext.h -> ../Cellar/unixodbc/2.3.4/include/odbcinstext.h\
+drwxr-xr-x    4 root       wheel    136 10 26  2015 osxfuse\
+-rw-r--r--    1 root       wheel  31706  6 13 12:58 pcre.h\
+-rw-r--r--@   1 root       wheel   6600  6 13 12:58 pcre_scanner.h\
+-rw-r--r--    1 root       wheel   6312  6 13 12:58 pcre_stringpiece.h\
+-rw-r--r--@   1 root       wheel  26529  6 13 12:58 pcrecpp.h\
+-rw-r--r--    1 root       wheel   6783  6 13 12:58 pcrecpparg.h\
+-rw-r--r--@   1 root       wheel   5452  6 13 12:58 pcreposix.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:22 pg_config.h -> ../Cellar/postgresql/9.5.3/include/pg_config.h\
+lrwxr-xr-x    1 lixiaoyan  admin     50  7  7 17:22 pg_config_ext.h -> ../Cellar/postgresql/9.5.3/include/pg_config_ext.h\
+lrwxr-xr-x    1 lixiaoyan  admin     53  7  7 17:22 pg_config_manual.h -> ../Cellar/postgresql/9.5.3/include/pg_config_manual.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 pg_config_os.h -> ../Cellar/postgresql/9.5.3/include/pg_config_os.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 pgtypes_date.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_date.h\
+lrwxr-xr-x    1 lixiaoyan  admin     50  7  7 17:22 pgtypes_error.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_error.h\
+lrwxr-xr-x    1 lixiaoyan  admin     53  7  7 17:22 pgtypes_interval.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_interval.h\
+lrwxr-xr-x    1 lixiaoyan  admin     52  7  7 17:22 pgtypes_numeric.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_numeric.h\
+lrwxr-xr-x    1 lixiaoyan  admin     54  7  7 17:22 pgtypes_timestamp.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_timestamp.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 23 17:55 php -> ../Cellar/php70/7.0.10_1/include/php\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 plugin.h -> /usr/local/mysql/include/plugin.h\
+lrwxr-xr-x    1 lixiaoyan  admin     39  8 24 14:22 plugin_audit.h -> /usr/local/mysql/include/plugin_audit.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 24 14:22 plugin_ftparser.h -> /usr/local/mysql/include/plugin_ftparser.h\
+lrwxr-xr-x    1 lixiaoyan  admin     51  8 24 14:22 plugin_group_replication.h -> /usr/local/mysql/include/plugin_group_replication.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  8 24 14:22 plugin_keyring.h -> /usr/local/mysql/include/plugin_keyring.h\
+lrwxr-xr-x    1 lixiaoyan  admin     51  8 24 14:22 plugin_validate_password.h -> /usr/local/mysql/include/plugin_validate_password.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 23 15:21 png.h -> ../Cellar/libpng/1.6.24/include/png.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  8 23 15:21 pngconf.h -> ../Cellar/libpng/1.6.24/include/pngconf.h\
+lrwxr-xr-x    1 lixiaoyan  admin     44  8 23 15:21 pnglibconf.h -> ../Cellar/libpng/1.6.24/include/pnglibconf.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 postgres_ext.h -> ../Cellar/postgresql/9.5.3/include/postgres_ext.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  7  7 17:22 server -> ../Cellar/postgresql/9.5.3/include/server\
+lrwxr-xr-x    1 lixiaoyan  admin     38  7  7 17:30 sql.h -> ../Cellar/unixodbc/2.3.4/include/sql.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:22 sql3types.h -> ../Cellar/postgresql/9.5.3/include/sql3types.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 sql_common.h -> /usr/local/mysql/include/sql_common.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 sql_state.h -> /usr/local/mysql/include/sql_state.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  7  7 17:22 sqlca.h -> ../Cellar/postgresql/9.5.3/include/sqlca.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 sqlda-compat.h -> ../Cellar/postgresql/9.5.3/include/sqlda-compat.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 sqlda-native.h -> ../Cellar/postgresql/9.5.3/include/sqlda-native.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  7  7 17:22 sqlda.h -> ../Cellar/postgresql/9.5.3/include/sqlda.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  7  7 17:30 sqlext.h -> ../Cellar/unixodbc/2.3.4/include/sqlext.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  7  7 17:30 sqlspi.h -> ../Cellar/unixodbc/2.3.4/include/sqlspi.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 sqltypes.h -> ../Cellar/unixodbc/2.3.4/include/sqltypes.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 sqlucode.h -> ../Cellar/unixodbc/2.3.4/include/sqlucode.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 sslopt-case.h -> /usr/local/mysql/include/sslopt-case.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 24 14:22 sslopt-longopts.h -> /usr/local/mysql/include/sslopt-longopts.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 sslopt-vars.h -> /usr/local/mysql/include/sslopt-vars.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 thr_cond.h -> /usr/local/mysql/include/thr_cond.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 thr_mutex.h -> /usr/local/mysql/include/thr_mutex.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 thr_rwlock.h -> /usr/local/mysql/include/thr_rwlock.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 typelib.h -> /usr/local/mysql/include/typelib.h\
+lrwxr-xr-x    1 lixiaoyan  admin     48  7  7 17:30 unixodbc_conf.h -> ../Cellar/unixodbc/2.3.4/include/unixodbc_conf.h\
+lrwxr-xr-x    1 lixiaoyan  admin     47  7  7 17:30 uodbc_extras.h -> ../Cellar/unixodbc/2.3.4/include/uodbc_extras.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:30 uodbc_stats.h -> ../Cellar/unixodbc/2.3.4/include/uodbc_stats.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  7 27 16:45 yaml.h -> ../Cellar/libyaml/0.1.6_1/include/yaml.h\
+localhost:include lixiaoyan$ cd ../\
+localhost:local lixiaoyan$ ls -la\
+total 64\
+drwxrwxr-x   27 lixiaoyan  admin   918  8 22 15:48 .\
+drwxr-xr-x@  11 root       wheel   374  7 13  2015 ..\
+drwxr-xr-x   15 lixiaoyan  admin   510  8 23 17:55 .git\
+drwxr-xr-x    5 lixiaoyan  admin   170  8 22 15:48 .github\
+-rw-r--r--    1 lixiaoyan  admin  1141  8 22 15:48 .gitignore\
+-rw-r--r--    1 lixiaoyan  admin   253  8 22 15:48 .travis.yml\
+-rw-r--r--    1 lixiaoyan  admin   291  8 22 15:48 .yardopts\
+-rw-r--r--    1 lixiaoyan  admin  3161  8 22 15:48 CODEOFCONDUCT.md\
+drwxr-xr-x   22 lixiaoyan  admin   748  8 23 17:55 Cellar\
+-rw-r--r--    1 lixiaoyan  admin  1241  8 22 15:48 LICENSE.txt\
+drwxr-xr-x    8 lixiaoyan  admin   272  8 23 15:20 Library\
+-rw-r--r--    1 lixiaoyan  admin  5665  8 22 15:48 README.md\
+drwxrwxr-x  113 lixiaoyan  admin  3842  8 23 17:55 bin\
+drwxrwxr-x    9 lixiaoyan  admin   306  7  7 17:40 etc\
+drwxr-xr-x    9 root       admin   306  6 15 13:53 gcc6.1.0\
+drwxr-xr-x    7 root       wheel   238  6 14 10:45 gcc6.1.0_source\
+drwxr-xr-x   11 root       wheel   374  1  5  2016 git\
+drwxrwxr-x  111 lixiaoyan  admin  3774  8 24 14:22 include\
+drwxrwxr-x   76 lixiaoyan  admin  2584  8 23 17:55 lib\
+lrwxr-xr-x    1 root       wheel    28  7 12 15:49 mysql -> mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x   12 root       wheel   408  7 12 15:50 mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x    2 lixiaoyan  admin    68  7  6 17:39 mysqltmp\
+drwxr-xr-x   21 lixiaoyan  admin   714  8 23 17:55 opt\
+drwxr-xr-x    7 lixiaoyan  admin   238  8 23 17:55 sbin\
+drwxrwxr-x   15 lixiaoyan  admin   510  8 22 15:51 share\
+drwxr-xr-x   10 root       wheel   340  6 13 14:50 ssl\
+drwxr-xr-x    7 lixiaoyan  admin   238  7  7 17:22 var\
+localhost:local lixiaoyan$ cd ~/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql\
+checking for grep that handles long lines and -e... /usr/bin/grep\
+checking for egrep... /usr/bin/grep -E\
+checking for a sed that does not truncate output... /usr/bin/sed\
+checking for cc... cc\
+checking whether the C compiler works... yes\
+checking for C compiler default output file name... a.out\
+checking for suffix of executables... \
+checking whether we are cross compiling... no\
+checking for suffix of object files... o\
+checking whether we are using the GNU C compiler... yes\
+checking whether cc accepts -g... yes\
+checking for cc option to accept ISO C89... none needed\
+checking how to run the C preprocessor... cc -E\
+checking for icc... no\
+checking for suncc... no\
+checking whether cc understands -c and -o together... yes\
+checking for system library directory... lib\
+checking if compiler supports -R... no\
+checking if compiler supports -Wl,-rpath,... yes\
+checking build system type... x86_64-apple-darwin14.5.0\
+checking host system type... x86_64-apple-darwin14.5.0\
+checking target system type... x86_64-apple-darwin14.5.0\
+checking for PHP prefix... /usr/local/Cellar/php70/7.0.10_1\
+checking for PHP includes... -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib\
+checking for PHP extension directory... /usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012\
+checking for PHP installed headers prefix... /usr/local/Cellar/php70/7.0.10_1/include/php\
+checking if debug is enabled... no\
+checking if zts is enabled... no\
+checking for re2c... no\
+configure: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.\
+checking for gawk... no\
+checking for nawk... no\
+checking for awk... awk\
+checking if awk is broken... no\
+checking for MySQL support for PDO... yes, shared\
+checking for mysql_config... /usr/local/mysql/bin/mysql_config\
+checking for mysql_query in -lmysqlclient... yes\
+checking for mysql_commit... yes\
+checking for mysql_stmt_prepare... yes\
+checking for mysql_next_result... yes\
+checking for mysql_sqlstate... yes\
+checking for PDO includes... checking for PDO includes... /usr/local/Cellar/php70/7.0.10_1/include/php/ext\
+checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld\
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no\
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r\
+checking for BSD-compatible nm... /usr/bin/nm\
+checking whether ln -s works... yes\
+checking how to recognize dependent libraries... pass_all\
+checking for ANSI C header files... yes\
+checking for sys/types.h... yes\
+checking for sys/stat.h... yes\
+checking for stdlib.h... yes\
+checking for string.h... yes\
+checking for memory.h... yes\
+checking for strings.h... yes\
+checking for inttypes.h... yes\
+checking for stdint.h... yes\
+checking for unistd.h... yes\
+checking dlfcn.h usability... yes\
+checking dlfcn.h presence... yes\
+checking for dlfcn.h... yes\
+checking the maximum length of command line arguments... 196608\
+checking command to parse /usr/bin/nm output from cc object... ok\
+checking for objdir... .libs\
+checking for ar... ar\
+checking for ranlib... ranlib\
+checking for strip... strip\
+checking for dsymutil... dsymutil\
+checking for nmedit... nmedit\
+checking for -single_module linker flag... yes\
+checking for -exported_symbols_list linker flag... yes\
+checking if cc supports -fno-rtti -fno-exceptions... yes\
+checking for cc option to produce PIC... -fno-common\
+checking if cc PIC flag -fno-common works... yes\
+checking if cc static flag -static works... no\
+checking if cc supports -c -o file.o... yes\
+checking whether the cc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes\
+checking dynamic linker characteristics... darwin14.5.0 dyld\
+checking how to hardcode library paths into programs... immediate\
+checking whether stripping libraries is possible... yes\
+checking if libtool supports shared libraries... yes\
+checking whether to build shared libraries... yes\
+checking whether to build static libraries... no\
+\
+creating libtool\
+appending configuration tag "CXX" to libtool\
+configure: creating ./config.status\
+config.status: creating config.h\
+config.status: config.h is unchanged\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ cd /usr/local/mysql/include\
+localhost:include lixiaoyan$ ls -la\
+total 1208\
+drwxr-xr-x  50 root  wheel    1700  5 25 17:13 .\
+drwxr-xr-x  12 root  wheel     408  7 12 15:50 ..\
+-rw-r--r--   1 root  wheel    3654  5 25 13:50 big_endian.h\
+-rw-r--r--   1 root  wheel    1967  5 25 13:50 binary_log_types.h\
+-rw-r--r--   1 root  wheel    2555  5 25 13:50 byte_order_generic.h\
+-rw-r--r--   1 root  wheel    2190  5 25 13:50 byte_order_generic_x86.h\
+-rw-r--r--   1 root  wheel    5175  5 25 13:50 decimal.h\
+-rw-r--r--   1 root  wheel    4350  5 25 13:50 errmsg.h\
+-rw-r--r--   1 root  wheel    7489  5 25 13:50 keycache.h\
+-rw-r--r--   1 root  wheel    3233  5 25 13:50 little_endian.h\
+-rw-r--r--   1 root  wheel   34282  5 25 13:50 m_ctype.h\
+-rw-r--r--   1 root  wheel   10722  5 25 13:50 m_string.h\
+-rw-r--r--   1 root  wheel    2312  5 25 13:50 my_alloc.h\
+-rw-r--r--   1 root  wheel    5488  5 25 13:50 my_byteorder.h\
+-rw-r--r--   1 root  wheel    1667  5 25 13:50 my_command.h\
+-rw-r--r--   1 root  wheel    5130  5 25 13:50 my_compiler.h\
+-rw-r--r--   1 root  wheel   11835  5 25 16:18 my_config.h\
+-rw-r--r--   1 root  wheel    9391  5 25 13:50 my_dbug.h\
+-rw-r--r--   1 root  wheel    3012  5 25 13:50 my_dir.h\
+-rw-r--r--   1 root  wheel    6456  5 25 13:50 my_getopt.h\
+-rw-r--r--   1 root  wheel   22412  5 25 13:50 my_global.h\
+-rw-r--r--   1 root  wheel    1506  5 25 13:50 my_list.h\
+-rw-r--r--   1 root  wheel   39204  5 25 13:50 my_sys.h\
+-rw-r--r--   1 root  wheel    4686  5 25 13:50 my_thread.h\
+-rw-r--r--   1 root  wheel    2566  5 25 13:50 my_thread_local.h\
+-rw-r--r--   1 root  wheel    2821  5 25 13:50 my_xml.h\
+drwxr-xr-x  48 root  wheel    1632  5 25 17:13 mysql\
+-rw-r--r--   1 root  wheel   29172  5 25 13:50 mysql.h\
+-rw-r--r--   1 root  wheel   24466  5 25 13:50 mysql_com.h\
+-rw-r--r--   1 root  wheel    1313  5 25 13:50 mysql_com_server.h\
+-rw-r--r--   1 root  wheel    1142  5 25 13:50 mysql_embed.h\
+-rw-r--r--   1 root  wheel    2172  5 25 13:50 mysql_time.h\
+-rw-r--r--   1 root  wheel    1013  5 25 16:18 mysql_version.h\
+-rw-r--r--   1 root  wheel  118402  5 25 16:20 mysqld_ername.h\
+-rw-r--r--   1 root  wheel   43196  5 25 16:20 mysqld_error.h\
+-rw-r--r--   1 root  wheel   26101  5 25 13:50 plugin.h\
+-rw-r--r--   1 root  wheel   17543  5 25 13:50 plugin_audit.h\
+-rw-r--r--   1 root  wheel    7644  5 25 13:50 plugin_ftparser.h\
+-rw-r--r--   1 root  wheel    5664  5 25 13:50 plugin_group_replication.h\
+-rw-r--r--   1 root  wheel    3741  5 25 13:50 plugin_keyring.h\
+-rw-r--r--   1 root  wheel    1583  5 25 13:50 plugin_validate_password.h\
+-rw-r--r--   1 root  wheel    7711  5 25 13:50 sql_common.h\
+-rw-r--r--   1 root  wheel   14902  5 25 16:20 sql_state.h\
+-rw-r--r--   1 root  wheel    2222  5 25 13:50 sslopt-case.h\
+-rw-r--r--   1 root  wheel    2878  5 25 13:50 sslopt-longopts.h\
+-rw-r--r--   1 root  wheel    2884  5 25 13:50 sslopt-vars.h\
+-rw-r--r--   1 root  wheel    5148  5 25 13:50 thr_cond.h\
+-rw-r--r--   1 root  wheel    5679  5 25 13:50 thr_mutex.h\
+-rw-r--r--   1 root  wheel    6044  5 25 13:50 thr_rwlock.h\
+-rw-r--r--   1 root  wheel    2282  5 25 13:50 typelib.h\
+localhost:include lixiaoyan$ cd /usr/local\
+localhost:local lixiaoyan$ ls -la\
+total 64\
+drwxrwxr-x   27 lixiaoyan  admin   918  8 22 15:48 .\
+drwxr-xr-x@  11 root       wheel   374  7 13  2015 ..\
+drwxr-xr-x   15 lixiaoyan  admin   510  8 23 17:55 .git\
+drwxr-xr-x    5 lixiaoyan  admin   170  8 22 15:48 .github\
+-rw-r--r--    1 lixiaoyan  admin  1141  8 22 15:48 .gitignore\
+-rw-r--r--    1 lixiaoyan  admin   253  8 22 15:48 .travis.yml\
+-rw-r--r--    1 lixiaoyan  admin   291  8 22 15:48 .yardopts\
+-rw-r--r--    1 lixiaoyan  admin  3161  8 22 15:48 CODEOFCONDUCT.md\
+drwxr-xr-x   22 lixiaoyan  admin   748  8 23 17:55 Cellar\
+-rw-r--r--    1 lixiaoyan  admin  1241  8 22 15:48 LICENSE.txt\
+drwxr-xr-x    8 lixiaoyan  admin   272  8 23 15:20 Library\
+-rw-r--r--    1 lixiaoyan  admin  5665  8 22 15:48 README.md\
+drwxrwxr-x  113 lixiaoyan  admin  3842  8 23 17:55 bin\
+drwxrwxr-x    9 lixiaoyan  admin   306  7  7 17:40 etc\
+drwxr-xr-x    9 root       admin   306  6 15 13:53 gcc6.1.0\
+drwxr-xr-x    7 root       wheel   238  6 14 10:45 gcc6.1.0_source\
+drwxr-xr-x   11 root       wheel   374  1  5  2016 git\
+drwxrwxr-x  111 lixiaoyan  admin  3774  8 24 14:22 include\
+drwxrwxr-x   76 lixiaoyan  admin  2584  8 23 17:55 lib\
+lrwxr-xr-x    1 root       wheel    28  7 12 15:49 mysql -> mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x   12 root       wheel   408  7 12 15:50 mysql-5.7.13-osx10.11-x86_64\
+drwxr-xr-x    2 lixiaoyan  admin    68  7  6 17:39 mysqltmp\
+drwxr-xr-x   21 lixiaoyan  admin   714  8 23 17:55 opt\
+drwxr-xr-x    7 lixiaoyan  admin   238  8 23 17:55 sbin\
+drwxrwxr-x   15 lixiaoyan  admin   510  8 22 15:51 share\
+drwxr-xr-x   10 root       wheel   340  6 13 14:50 ssl\
+drwxr-xr-x    7 lixiaoyan  admin   238  7  7 17:22 var\
+localhost:local lixiaoyan$ cd mysql\
+localhost:mysql lixiaoyan$ ls -la\
+total 48\
+drwxr-xr-x  12 root       wheel     408  7 12 15:50 .\
+drwxrwxr-x  27 lixiaoyan  admin     918  8 22 15:48 ..\
+-rw-r--r--   1 root       wheel   17987  5 25 13:50 COPYING\
+-rw-r--r--   1 root       wheel    2478  5 25 13:50 README\
+drwxr-xr-x  40 root       wheel    1360  5 25 17:14 bin\
+drwxr-x---  13 _mysql     _mysql    442  7 29 18:14 data\
+drwxr-xr-x   5 root       wheel     170  5 25 17:14 docs\
+drwxr-xr-x  50 root       wheel    1700  5 25 17:13 include\
+drwxr-xr-x  11 root       wheel     374  7 12 15:50 lib\
+drwxr-xr-x   4 root       wheel     136  5 25 17:14 man\
+drwxr-xr-x  39 root       wheel    1326  5 25 17:14 share\
+drwxr-xr-x   7 root       wheel     238  5 25 17:14 support-files\
+localhost:mysql lixiaoyan$ cd include/\
+localhost:include lixiaoyan$ ls -la\
+total 1208\
+drwxr-xr-x  50 root  wheel    1700  5 25 17:13 .\
+drwxr-xr-x  12 root  wheel     408  7 12 15:50 ..\
+-rw-r--r--   1 root  wheel    3654  5 25 13:50 big_endian.h\
+-rw-r--r--   1 root  wheel    1967  5 25 13:50 binary_log_types.h\
+-rw-r--r--   1 root  wheel    2555  5 25 13:50 byte_order_generic.h\
+-rw-r--r--   1 root  wheel    2190  5 25 13:50 byte_order_generic_x86.h\
+-rw-r--r--   1 root  wheel    5175  5 25 13:50 decimal.h\
+-rw-r--r--   1 root  wheel    4350  5 25 13:50 errmsg.h\
+-rw-r--r--   1 root  wheel    7489  5 25 13:50 keycache.h\
+-rw-r--r--   1 root  wheel    3233  5 25 13:50 little_endian.h\
+-rw-r--r--   1 root  wheel   34282  5 25 13:50 m_ctype.h\
+-rw-r--r--   1 root  wheel   10722  5 25 13:50 m_string.h\
+-rw-r--r--   1 root  wheel    2312  5 25 13:50 my_alloc.h\
+-rw-r--r--   1 root  wheel    5488  5 25 13:50 my_byteorder.h\
+-rw-r--r--   1 root  wheel    1667  5 25 13:50 my_command.h\
+-rw-r--r--   1 root  wheel    5130  5 25 13:50 my_compiler.h\
+-rw-r--r--   1 root  wheel   11835  5 25 16:18 my_config.h\
+-rw-r--r--   1 root  wheel    9391  5 25 13:50 my_dbug.h\
+-rw-r--r--   1 root  wheel    3012  5 25 13:50 my_dir.h\
+-rw-r--r--   1 root  wheel    6456  5 25 13:50 my_getopt.h\
+-rw-r--r--   1 root  wheel   22412  5 25 13:50 my_global.h\
+-rw-r--r--   1 root  wheel    1506  5 25 13:50 my_list.h\
+-rw-r--r--   1 root  wheel   39204  5 25 13:50 my_sys.h\
+-rw-r--r--   1 root  wheel    4686  5 25 13:50 my_thread.h\
+-rw-r--r--   1 root  wheel    2566  5 25 13:50 my_thread_local.h\
+-rw-r--r--   1 root  wheel    2821  5 25 13:50 my_xml.h\
+drwxr-xr-x  48 root  wheel    1632  5 25 17:13 mysql\
+-rw-r--r--   1 root  wheel   29172  5 25 13:50 mysql.h\
+-rw-r--r--   1 root  wheel   24466  5 25 13:50 mysql_com.h\
+-rw-r--r--   1 root  wheel    1313  5 25 13:50 mysql_com_server.h\
+-rw-r--r--   1 root  wheel    1142  5 25 13:50 mysql_embed.h\
+-rw-r--r--   1 root  wheel    2172  5 25 13:50 mysql_time.h\
+-rw-r--r--   1 root  wheel    1013  5 25 16:18 mysql_version.h\
+-rw-r--r--   1 root  wheel  118402  5 25 16:20 mysqld_ername.h\
+-rw-r--r--   1 root  wheel   43196  5 25 16:20 mysqld_error.h\
+-rw-r--r--   1 root  wheel   26101  5 25 13:50 plugin.h\
+-rw-r--r--   1 root  wheel   17543  5 25 13:50 plugin_audit.h\
+-rw-r--r--   1 root  wheel    7644  5 25 13:50 plugin_ftparser.h\
+-rw-r--r--   1 root  wheel    5664  5 25 13:50 plugin_group_replication.h\
+-rw-r--r--   1 root  wheel    3741  5 25 13:50 plugin_keyring.h\
+-rw-r--r--   1 root  wheel    1583  5 25 13:50 plugin_validate_password.h\
+-rw-r--r--   1 root  wheel    7711  5 25 13:50 sql_common.h\
+-rw-r--r--   1 root  wheel   14902  5 25 16:20 sql_state.h\
+-rw-r--r--   1 root  wheel    2222  5 25 13:50 sslopt-case.h\
+-rw-r--r--   1 root  wheel    2878  5 25 13:50 sslopt-longopts.h\
+-rw-r--r--   1 root  wheel    2884  5 25 13:50 sslopt-vars.h\
+-rw-r--r--   1 root  wheel    5148  5 25 13:50 thr_cond.h\
+-rw-r--r--   1 root  wheel    5679  5 25 13:50 thr_mutex.h\
+-rw-r--r--   1 root  wheel    6044  5 25 13:50 thr_rwlock.h\
+-rw-r--r--   1 root  wheel    2282  5 25 13:50 typelib.h\
+localhost:include lixiaoyan$ cd ../\
+localhost:mysql lixiaoyan$ cd ../\
+localhost:local lixiaoyan$ cd include/\
+localhost:include lixiaoyan$ ls -la\
+total 992\
+drwxrwxr-x  111 lixiaoyan  admin   3774  8 24 14:22 .\
+drwxrwxr-x   27 lixiaoyan  admin    918  8 22 15:48 ..\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 autotest.h -> ../Cellar/unixodbc/2.3.4/include/autotest.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 big_endian.h -> /usr/local/mysql/include/big_endian.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  8 24 14:22 binary_log_types.h -> /usr/local/mysql/include/binary_log_types.h\
+lrwxr-xr-x    1 lixiaoyan  admin     45  8 24 14:22 byte_order_generic.h -> /usr/local/mysql/include/byte_order_generic.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  8 24 14:22 byte_order_generic_x86.h -> /usr/local/mysql/include/byte_order_generic_x86.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 decimal.h -> /usr/local/mysql/include/decimal.h\
+lrwxr-xr-x    1 lixiaoyan  admin     48  7  7 17:22 ecpg_config.h -> ../Cellar/postgresql/9.5.3/include/ecpg_config.h\
+lrwxr-xr-x    1 lixiaoyan  admin     50  7  7 17:22 ecpg_informix.h -> ../Cellar/postgresql/9.5.3/include/ecpg_informix.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:22 ecpgerrno.h -> ../Cellar/postgresql/9.5.3/include/ecpgerrno.h\
+lrwxr-xr-x    1 lixiaoyan  admin     44  7  7 17:22 ecpglib.h -> ../Cellar/postgresql/9.5.3/include/ecpglib.h\
+lrwxr-xr-x    1 lixiaoyan  admin     45  7  7 17:22 ecpgtype.h -> ../Cellar/postgresql/9.5.3/include/ecpgtype.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 errmsg.h -> /usr/local/mysql/include/errmsg.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 23 15:22 freetype2 -> ../Cellar/freetype/2.6.5/include/freetype2\
+lrwxr-xr-x    1 lixiaoyan  admin     47  8 22 15:51 gpg-error.h -> ../Cellar/libgpg-error/1.24/include/gpg-error.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  7  7 17:30 imap -> ../Cellar/imap-uw/2007f/include/imap\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:22 informix -> ../Cellar/postgresql/9.5.3/include/informix\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:22 internal -> ../Cellar/postgresql/9.5.3/include/internal\
+lrwxr-xr-x    1 lixiaoyan  admin     35  7  7 17:30 jconfig.h -> ../Cellar/jpeg/8d/include/jconfig.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  7  7 17:30 jerror.h -> ../Cellar/jpeg/8d/include/jerror.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  7  7 17:30 jmorecfg.h -> ../Cellar/jpeg/8d/include/jmorecfg.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  7  7 17:30 jpeglib.h -> ../Cellar/jpeg/8d/include/jpeglib.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 keycache.h -> /usr/local/mysql/include/keycache.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 22 15:52 ksba.h -> ../Cellar/libksba/1.3.4_1/include/ksba.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  8 22 15:51 libltdl -> ../Cellar/libtool/2.4.6_1/include/libltdl\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 23 15:21 libpng16 -> ../Cellar/libpng/1.6.24/include/libpng16\
+lrwxr-xr-x    1 lixiaoyan  admin     40  7  7 17:22 libpq -> ../Cellar/postgresql/9.5.3/include/libpq\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 libpq-events.h -> ../Cellar/postgresql/9.5.3/include/libpq-events.h\
+lrwxr-xr-x    1 lixiaoyan  admin     45  7  7 17:22 libpq-fe.h -> ../Cellar/postgresql/9.5.3/include/libpq-fe.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 24 14:22 little_endian.h -> /usr/local/mysql/include/little_endian.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 22 15:51 ltdl.h -> ../Cellar/libtool/2.4.6_1/include/ltdl.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 m_ctype.h -> /usr/local/mysql/include/m_ctype.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 m_string.h -> /usr/local/mysql/include/m_string.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 my_alloc.h -> /usr/local/mysql/include/my_alloc.h\
+lrwxr-xr-x    1 lixiaoyan  admin     39  8 24 14:22 my_byteorder.h -> /usr/local/mysql/include/my_byteorder.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 my_command.h -> /usr/local/mysql/include/my_command.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 my_compiler.h -> /usr/local/mysql/include/my_compiler.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_config.h -> /usr/local/mysql/include/my_config.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 my_dbug.h -> /usr/local/mysql/include/my_dbug.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 my_dir.h -> /usr/local/mysql/include/my_dir.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_getopt.h -> /usr/local/mysql/include/my_getopt.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_global.h -> /usr/local/mysql/include/my_global.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 my_list.h -> /usr/local/mysql/include/my_list.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 my_sys.h -> /usr/local/mysql/include/my_sys.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 my_thread.h -> /usr/local/mysql/include/my_thread.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 24 14:22 my_thread_local.h -> /usr/local/mysql/include/my_thread_local.h\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 my_xml.h -> /usr/local/mysql/include/my_xml.h\
+lrwxr-xr-x    1 lixiaoyan  admin     30  8 24 14:22 mysql -> /usr/local/mysql/include/mysql\
+lrwxr-xr-x    1 lixiaoyan  admin     32  8 24 14:22 mysql.h -> /usr/local/mysql/include/mysql.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 mysql_com.h -> /usr/local/mysql/include/mysql_com.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  8 24 14:22 mysql_com_server.h -> /usr/local/mysql/include/mysql_com_server.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 mysql_embed.h -> /usr/local/mysql/include/mysql_embed.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 mysql_time.h -> /usr/local/mysql/include/mysql_time.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 24 14:22 mysql_version.h -> /usr/local/mysql/include/mysql_version.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  8 24 14:22 mysqld_ername.h -> /usr/local/mysql/include/mysqld_ername.h\
+lrwxr-xr-x    1 lixiaoyan  admin     39  8 24 14:22 mysqld_error.h -> /usr/local/mysql/include/mysqld_error.h\
+drwxrwxr-x   39 lixiaoyan  staff   1326  4 13 17:27 node\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 odbcinst.h -> ../Cellar/unixodbc/2.3.4/include/odbcinst.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:30 odbcinstext.h -> ../Cellar/unixodbc/2.3.4/include/odbcinstext.h\
+drwxr-xr-x    4 root       wheel    136 10 26  2015 osxfuse\
+-rw-r--r--    1 root       wheel  31706  6 13 12:58 pcre.h\
+-rw-r--r--@   1 root       wheel   6600  6 13 12:58 pcre_scanner.h\
+-rw-r--r--    1 root       wheel   6312  6 13 12:58 pcre_stringpiece.h\
+-rw-r--r--@   1 root       wheel  26529  6 13 12:58 pcrecpp.h\
+-rw-r--r--    1 root       wheel   6783  6 13 12:58 pcrecpparg.h\
+-rw-r--r--@   1 root       wheel   5452  6 13 12:58 pcreposix.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:22 pg_config.h -> ../Cellar/postgresql/9.5.3/include/pg_config.h\
+lrwxr-xr-x    1 lixiaoyan  admin     50  7  7 17:22 pg_config_ext.h -> ../Cellar/postgresql/9.5.3/include/pg_config_ext.h\
+lrwxr-xr-x    1 lixiaoyan  admin     53  7  7 17:22 pg_config_manual.h -> ../Cellar/postgresql/9.5.3/include/pg_config_manual.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 pg_config_os.h -> ../Cellar/postgresql/9.5.3/include/pg_config_os.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 pgtypes_date.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_date.h\
+lrwxr-xr-x    1 lixiaoyan  admin     50  7  7 17:22 pgtypes_error.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_error.h\
+lrwxr-xr-x    1 lixiaoyan  admin     53  7  7 17:22 pgtypes_interval.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_interval.h\
+lrwxr-xr-x    1 lixiaoyan  admin     52  7  7 17:22 pgtypes_numeric.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_numeric.h\
+lrwxr-xr-x    1 lixiaoyan  admin     54  7  7 17:22 pgtypes_timestamp.h -> ../Cellar/postgresql/9.5.3/include/pgtypes_timestamp.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 23 17:55 php -> ../Cellar/php70/7.0.10_1/include/php\
+lrwxr-xr-x    1 lixiaoyan  admin     33  8 24 14:22 plugin.h -> /usr/local/mysql/include/plugin.h\
+lrwxr-xr-x    1 lixiaoyan  admin     39  8 24 14:22 plugin_audit.h -> /usr/local/mysql/include/plugin_audit.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 24 14:22 plugin_ftparser.h -> /usr/local/mysql/include/plugin_ftparser.h\
+lrwxr-xr-x    1 lixiaoyan  admin     51  8 24 14:22 plugin_group_replication.h -> /usr/local/mysql/include/plugin_group_replication.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  8 24 14:22 plugin_keyring.h -> /usr/local/mysql/include/plugin_keyring.h\
+lrwxr-xr-x    1 lixiaoyan  admin     51  8 24 14:22 plugin_validate_password.h -> /usr/local/mysql/include/plugin_validate_password.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 23 15:21 png.h -> ../Cellar/libpng/1.6.24/include/png.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  8 23 15:21 pngconf.h -> ../Cellar/libpng/1.6.24/include/pngconf.h\
+lrwxr-xr-x    1 lixiaoyan  admin     44  8 23 15:21 pnglibconf.h -> ../Cellar/libpng/1.6.24/include/pnglibconf.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 postgres_ext.h -> ../Cellar/postgresql/9.5.3/include/postgres_ext.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  7  7 17:22 server -> ../Cellar/postgresql/9.5.3/include/server\
+lrwxr-xr-x    1 lixiaoyan  admin     38  7  7 17:30 sql.h -> ../Cellar/unixodbc/2.3.4/include/sql.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:22 sql3types.h -> ../Cellar/postgresql/9.5.3/include/sql3types.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 sql_common.h -> /usr/local/mysql/include/sql_common.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 sql_state.h -> /usr/local/mysql/include/sql_state.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  7  7 17:22 sqlca.h -> ../Cellar/postgresql/9.5.3/include/sqlca.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 sqlda-compat.h -> ../Cellar/postgresql/9.5.3/include/sqlda-compat.h\
+lrwxr-xr-x    1 lixiaoyan  admin     49  7  7 17:22 sqlda-native.h -> ../Cellar/postgresql/9.5.3/include/sqlda-native.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  7  7 17:22 sqlda.h -> ../Cellar/postgresql/9.5.3/include/sqlda.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  7  7 17:30 sqlext.h -> ../Cellar/unixodbc/2.3.4/include/sqlext.h\
+lrwxr-xr-x    1 lixiaoyan  admin     41  7  7 17:30 sqlspi.h -> ../Cellar/unixodbc/2.3.4/include/sqlspi.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 sqltypes.h -> ../Cellar/unixodbc/2.3.4/include/sqltypes.h\
+lrwxr-xr-x    1 lixiaoyan  admin     43  7  7 17:30 sqlucode.h -> ../Cellar/unixodbc/2.3.4/include/sqlucode.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 sslopt-case.h -> /usr/local/mysql/include/sslopt-case.h\
+lrwxr-xr-x    1 lixiaoyan  admin     42  8 24 14:22 sslopt-longopts.h -> /usr/local/mysql/include/sslopt-longopts.h\
+lrwxr-xr-x    1 lixiaoyan  admin     38  8 24 14:22 sslopt-vars.h -> /usr/local/mysql/include/sslopt-vars.h\
+lrwxr-xr-x    1 lixiaoyan  admin     35  8 24 14:22 thr_cond.h -> /usr/local/mysql/include/thr_cond.h\
+lrwxr-xr-x    1 lixiaoyan  admin     36  8 24 14:22 thr_mutex.h -> /usr/local/mysql/include/thr_mutex.h\
+lrwxr-xr-x    1 lixiaoyan  admin     37  8 24 14:22 thr_rwlock.h -> /usr/local/mysql/include/thr_rwlock.h\
+lrwxr-xr-x    1 lixiaoyan  admin     34  8 24 14:22 typelib.h -> /usr/local/mysql/include/typelib.h\
+lrwxr-xr-x    1 lixiaoyan  admin     48  7  7 17:30 unixodbc_conf.h -> ../Cellar/unixodbc/2.3.4/include/unixodbc_conf.h\
+lrwxr-xr-x    1 lixiaoyan  admin     47  7  7 17:30 uodbc_extras.h -> ../Cellar/unixodbc/2.3.4/include/uodbc_extras.h\
+lrwxr-xr-x    1 lixiaoyan  admin     46  7  7 17:30 uodbc_stats.h -> ../Cellar/unixodbc/2.3.4/include/uodbc_stats.h\
+lrwxr-xr-x    1 lixiaoyan  admin     40  7 27 16:45 yaml.h -> ../Cellar/libyaml/0.1.6_1/include/yaml.h\
+localhost:include lixiaoyan$ cd ~/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ phpize\
+Configuring for:\
+PHP Api Version:         20151012\
+Zend Module Api No:      20151012\
+Zend Extension Api No:   320151012\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/mkdep.awk: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/scan_makefile_in.awk: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/shtool: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/build/libtool.m4: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/acinclude.m4: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/Makefile.global: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/config.sub: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/config.guess: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/ltmain.sh: Permission denied\
+cp: /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/run-tests.php: Permission denied\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql\
+checking for grep that handles long lines and -e... /usr/bin/grep\
+checking for egrep... /usr/bin/grep -E\
+checking for a sed that does not truncate output... /usr/bin/sed\
+checking for cc... cc\
+checking whether the C compiler works... yes\
+checking for C compiler default output file name... a.out\
+checking for suffix of executables... \
+checking whether we are cross compiling... no\
+checking for suffix of object files... o\
+checking whether we are using the GNU C compiler... yes\
+checking whether cc accepts -g... yes\
+checking for cc option to accept ISO C89... none needed\
+checking how to run the C preprocessor... cc -E\
+checking for icc... no\
+checking for suncc... no\
+checking whether cc understands -c and -o together... yes\
+checking for system library directory... lib\
+checking if compiler supports -R... no\
+checking if compiler supports -Wl,-rpath,... yes\
+checking build system type... x86_64-apple-darwin14.5.0\
+checking host system type... x86_64-apple-darwin14.5.0\
+checking target system type... x86_64-apple-darwin14.5.0\
+checking for PHP prefix... /usr/local/Cellar/php70/7.0.10_1\
+checking for PHP includes... -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib\
+checking for PHP extension directory... /usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012\
+checking for PHP installed headers prefix... /usr/local/Cellar/php70/7.0.10_1/include/php\
+checking if debug is enabled... no\
+checking if zts is enabled... no\
+checking for re2c... no\
+configure: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.\
+checking for gawk... no\
+checking for nawk... no\
+checking for awk... awk\
+checking if awk is broken... no\
+checking for MySQL support for PDO... yes, shared\
+checking for mysql_config... /usr/local/mysql/bin/mysql_config\
+checking for mysql_query in -lmysqlclient... yes\
+checking for mysql_commit... yes\
+checking for mysql_stmt_prepare... yes\
+checking for mysql_next_result... yes\
+checking for mysql_sqlstate... yes\
+checking for PDO includes... checking for PDO includes... /usr/local/Cellar/php70/7.0.10_1/include/php/ext\
+checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld\
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no\
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r\
+checking for BSD-compatible nm... /usr/bin/nm\
+checking whether ln -s works... yes\
+checking how to recognize dependent libraries... pass_all\
+checking for ANSI C header files... yes\
+checking for sys/types.h... yes\
+checking for sys/stat.h... yes\
+checking for stdlib.h... yes\
+checking for string.h... yes\
+checking for memory.h... yes\
+checking for strings.h... yes\
+checking for inttypes.h... yes\
+checking for stdint.h... yes\
+checking for unistd.h... yes\
+checking dlfcn.h usability... yes\
+checking dlfcn.h presence... yes\
+checking for dlfcn.h... yes\
+checking the maximum length of command line arguments... 196608\
+checking command to parse /usr/bin/nm output from cc object... ok\
+checking for objdir... .libs\
+checking for ar... ar\
+checking for ranlib... ranlib\
+checking for strip... strip\
+checking for dsymutil... dsymutil\
+checking for nmedit... nmedit\
+checking for -single_module linker flag... yes\
+checking for -exported_symbols_list linker flag... yes\
+checking if cc supports -fno-rtti -fno-exceptions... yes\
+checking for cc option to produce PIC... -fno-common\
+checking if cc PIC flag -fno-common works... yes\
+checking if cc static flag -static works... no\
+checking if cc supports -c -o file.o... yes\
+checking whether the cc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes\
+checking dynamic linker characteristics... darwin14.5.0 dyld\
+checking how to hardcode library paths into programs... immediate\
+checking whether stripping libraries is possible... yes\
+checking if libtool supports shared libraries... yes\
+checking whether to build shared libraries... yes\
+checking whether to build static libraries... no\
+\
+creating libtool\
+appending configuration tag "CXX" to libtool\
+configure: creating ./config.status\
+config.status: creating config.h\
+config.status: config.h is unchanged\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ln -s /usr/local/mysql/include/* /usr/local/include/\
+ln: /usr/local/include//big_endian.h: File exists\
+ln: /usr/local/include//binary_log_types.h: File exists\
+ln: /usr/local/include//byte_order_generic.h: File exists\
+ln: /usr/local/include//byte_order_generic_x86.h: File exists\
+ln: /usr/local/include//decimal.h: File exists\
+ln: /usr/local/include//errmsg.h: File exists\
+ln: /usr/local/include//keycache.h: File exists\
+ln: /usr/local/include//little_endian.h: File exists\
+ln: /usr/local/include//m_ctype.h: File exists\
+ln: /usr/local/include//m_string.h: File exists\
+ln: /usr/local/include//my_alloc.h: File exists\
+ln: /usr/local/include//my_byteorder.h: File exists\
+ln: /usr/local/include//my_command.h: File exists\
+ln: /usr/local/include//my_compiler.h: File exists\
+ln: /usr/local/include//my_config.h: File exists\
+ln: /usr/local/include//my_dbug.h: File exists\
+ln: /usr/local/include//my_dir.h: File exists\
+ln: /usr/local/include//my_getopt.h: File exists\
+ln: /usr/local/include//my_global.h: File exists\
+ln: /usr/local/include//my_list.h: File exists\
+ln: /usr/local/include//my_sys.h: File exists\
+ln: /usr/local/include//my_thread.h: File exists\
+ln: /usr/local/include//my_thread_local.h: File exists\
+ln: /usr/local/include//my_xml.h: File exists\
+ln: /usr/local/include//mysql: File exists\
+ln: /usr/local/include//mysql.h: File exists\
+ln: /usr/local/include//mysql_com.h: File exists\
+ln: /usr/local/include//mysql_com_server.h: File exists\
+ln: /usr/local/include//mysql_embed.h: File exists\
+ln: /usr/local/include//mysql_time.h: File exists\
+ln: /usr/local/include//mysql_version.h: File exists\
+ln: /usr/local/include//mysqld_ername.h: File exists\
+ln: /usr/local/include//mysqld_error.h: File exists\
+ln: /usr/local/include//plugin.h: File exists\
+ln: /usr/local/include//plugin_audit.h: File exists\
+ln: /usr/local/include//plugin_ftparser.h: File exists\
+ln: /usr/local/include//plugin_group_replication.h: File exists\
+ln: /usr/local/include//plugin_keyring.h: File exists\
+ln: /usr/local/include//plugin_validate_password.h: File exists\
+ln: /usr/local/include//sql_common.h: File exists\
+ln: /usr/local/include//sql_state.h: File exists\
+ln: /usr/local/include//sslopt-case.h: File exists\
+ln: /usr/local/include//sslopt-longopts.h: File exists\
+ln: /usr/local/include//sslopt-vars.h: File exists\
+ln: /usr/local/include//thr_cond.h: File exists\
+ln: /usr/local/include//thr_mutex.h: File exists\
+ln: /usr/local/include//thr_rwlock.h: File exists\
+ln: /usr/local/include//typelib.h: File exists\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$  cd /usr/local/mysql/\
+localhost:mysql lixiaoyan$ ls -la\
+total 48\
+drwxr-xr-x  12 root       wheel     408  7 12 15:50 .\
+drwxrwxr-x  27 lixiaoyan  admin     918  8 22 15:48 ..\
+-rw-r--r--   1 root       wheel   17987  5 25 13:50 COPYING\
+-rw-r--r--   1 root       wheel    2478  5 25 13:50 README\
+drwxr-xr-x  40 root       wheel    1360  5 25 17:14 bin\
+drwxr-x---  15 _mysql     _mysql    510  8 24 14:55 data\
+drwxr-xr-x   5 root       wheel     170  5 25 17:14 docs\
+drwxr-xr-x  50 root       wheel    1700  5 25 17:13 include\
+drwxr-xr-x  11 root       wheel     374  7 12 15:50 lib\
+drwxr-xr-x   4 root       wheel     136  5 25 17:14 man\
+drwxr-xr-x  39 root       wheel    1326  5 25 17:14 share\
+drwxr-xr-x   7 root       wheel     238  5 25 17:14 support-files\
+localhost:mysql lixiaoyan$ cd ~/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql\
+checking for grep that handles long lines and -e... /usr/bin/grep\
+checking for egrep... /usr/bin/grep -E\
+checking for a sed that does not truncate output... /usr/bin/sed\
+checking for cc... cc\
+checking whether the C compiler works... yes\
+checking for C compiler default output file name... a.out\
+checking for suffix of executables... \
+checking whether we are cross compiling... no\
+checking for suffix of object files... o\
+checking whether we are using the GNU C compiler... yes\
+checking whether cc accepts -g... yes\
+checking for cc option to accept ISO C89... none needed\
+checking how to run the C preprocessor... cc -E\
+checking for icc... no\
+checking for suncc... no\
+checking whether cc understands -c and -o together... yes\
+checking for system library directory... lib\
+checking if compiler supports -R... no\
+checking if compiler supports -Wl,-rpath,... yes\
+checking build system type... x86_64-apple-darwin14.5.0\
+checking host system type... x86_64-apple-darwin14.5.0\
+checking target system type... x86_64-apple-darwin14.5.0\
+checking for PHP prefix... /usr/local/Cellar/php70/7.0.10_1\
+checking for PHP includes... -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib\
+checking for PHP extension directory... /usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012\
+checking for PHP installed headers prefix... /usr/local/Cellar/php70/7.0.10_1/include/php\
+checking if debug is enabled... no\
+checking if zts is enabled... no\
+checking for re2c... no\
+configure: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.\
+checking for gawk... no\
+checking for nawk... no\
+checking for awk... awk\
+checking if awk is broken... no\
+checking for MySQL support for PDO... yes, shared\
+checking for mysql_config... /usr/local/mysql/bin/mysql_config\
+checking for mysql_query in -lmysqlclient... yes\
+checking for mysql_commit... yes\
+checking for mysql_stmt_prepare... yes\
+checking for mysql_next_result... yes\
+checking for mysql_sqlstate... yes\
+checking for PDO includes... checking for PDO includes... /usr/local/Cellar/php70/7.0.10_1/include/php/ext\
+checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld\
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no\
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r\
+checking for BSD-compatible nm... /usr/bin/nm\
+checking whether ln -s works... yes\
+checking how to recognize dependent libraries... pass_all\
+checking for ANSI C header files... yes\
+checking for sys/types.h... yes\
+checking for sys/stat.h... yes\
+checking for stdlib.h... yes\
+checking for string.h... yes\
+checking for memory.h... yes\
+checking for strings.h... yes\
+checking for inttypes.h... yes\
+checking for stdint.h... yes\
+checking for unistd.h... yes\
+checking dlfcn.h usability... yes\
+checking dlfcn.h presence... yes\
+checking for dlfcn.h... yes\
+checking the maximum length of command line arguments... 196608\
+checking command to parse /usr/bin/nm output from cc object... ok\
+checking for objdir... .libs\
+checking for ar... ar\
+checking for ranlib... ranlib\
+checking for strip... strip\
+checking for dsymutil... dsymutil\
+checking for nmedit... nmedit\
+checking for -single_module linker flag... yes\
+checking for -exported_symbols_list linker flag... yes\
+checking if cc supports -fno-rtti -fno-exceptions... yes\
+checking for cc option to produce PIC... -fno-common\
+checking if cc PIC flag -fno-common works... yes\
+checking if cc static flag -static works... no\
+checking if cc supports -c -o file.o... yes\
+checking whether the cc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes\
+checking dynamic linker characteristics... darwin14.5.0 dyld\
+checking how to hardcode library paths into programs... immediate\
+checking whether stripping libraries is possible... yes\
+checking if libtool supports shared libraries... yes\
+checking whether to build shared libraries... yes\
+checking whether to build static libraries... no\
+\
+creating libtool\
+appending configuration tag "CXX" to libtool\
+configure: creating ./config.status\
+config.status: creating config.h\
+config.status: config.h is unchanged\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ #include <mysql.h>\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ mysql\
+ERROR 1045 (28000): Access denied for user 'lixiaoyan'@'localhost' (using password: NO)\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ mysql -u root \
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ mysql -u root -p\
+Enter password: \
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ mysql -u root -h localhost -p\
+Enter password: \
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ mysql -u root -h localhost -p\
+Enter password: \
+Welcome to the MySQL monitor.  Commands end with ; or \\g.\
+Your MySQL connection id is 578\
+Server version: 5.7.13 MySQL Community Server (GPL)\
+\
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.\
+\
+Oracle is a registered trademark of Oracle Corporation and/or its\
+affiliates. Other names may be trademarks of their respective\
+owners.\
+\
+Type 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\
+\
+mysql> QUIT\
+Bye\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ pas  dyn123456\
+-bash: pas: command not found\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make clean\
+find . -name \\*.gcno -o -name \\*.gcda | xargs rm -f\
+find . -name \\*.lo -o -name \\*.o | xargs rm -f\
+find . -name \\*.la -o -name \\*.a | xargs rm -f \
+find . -name \\*.so | xargs rm -f\
+find . -name .libs -a -type d|xargs rm -rf\
+rm -f libphp.la       modules/* libs/*\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ cd /usr/local/mysql/include\
+localhost:include lixiaoyan$ ls -la\
+total 1208\
+drwxr-xr-x  50 root  wheel    1700  5 25 17:13 .\
+drwxr-xr-x  12 root  wheel     408  7 12 15:50 ..\
+-rw-r--r--   1 root  wheel    3654  5 25 13:50 big_endian.h\
+-rw-r--r--   1 root  wheel    1967  5 25 13:50 binary_log_types.h\
+-rw-r--r--   1 root  wheel    2555  5 25 13:50 byte_order_generic.h\
+-rw-r--r--   1 root  wheel    2190  5 25 13:50 byte_order_generic_x86.h\
+-rw-r--r--   1 root  wheel    5175  5 25 13:50 decimal.h\
+-rw-r--r--   1 root  wheel    4350  5 25 13:50 errmsg.h\
+-rw-r--r--   1 root  wheel    7489  5 25 13:50 keycache.h\
+-rw-r--r--   1 root  wheel    3233  5 25 13:50 little_endian.h\
+-rw-r--r--   1 root  wheel   34282  5 25 13:50 m_ctype.h\
+-rw-r--r--   1 root  wheel   10722  5 25 13:50 m_string.h\
+-rw-r--r--   1 root  wheel    2312  5 25 13:50 my_alloc.h\
+-rw-r--r--   1 root  wheel    5488  5 25 13:50 my_byteorder.h\
+-rw-r--r--   1 root  wheel    1667  5 25 13:50 my_command.h\
+-rw-r--r--   1 root  wheel    5130  5 25 13:50 my_compiler.h\
+-rw-r--r--   1 root  wheel   11835  5 25 16:18 my_config.h\
+-rw-r--r--   1 root  wheel    9391  5 25 13:50 my_dbug.h\
+-rw-r--r--   1 root  wheel    3012  5 25 13:50 my_dir.h\
+-rw-r--r--   1 root  wheel    6456  5 25 13:50 my_getopt.h\
+-rw-r--r--   1 root  wheel   22412  5 25 13:50 my_global.h\
+-rw-r--r--   1 root  wheel    1506  5 25 13:50 my_list.h\
+-rw-r--r--   1 root  wheel   39204  5 25 13:50 my_sys.h\
+-rw-r--r--   1 root  wheel    4686  5 25 13:50 my_thread.h\
+-rw-r--r--   1 root  wheel    2566  5 25 13:50 my_thread_local.h\
+-rw-r--r--   1 root  wheel    2821  5 25 13:50 my_xml.h\
+drwxr-xr-x  48 root  wheel    1632  5 25 17:13 mysql\
+-rw-r--r--   1 root  wheel   29172  5 25 13:50 mysql.h\
+-rw-r--r--   1 root  wheel   24466  5 25 13:50 mysql_com.h\
+-rw-r--r--   1 root  wheel    1313  5 25 13:50 mysql_com_server.h\
+-rw-r--r--   1 root  wheel    1142  5 25 13:50 mysql_embed.h\
+-rw-r--r--   1 root  wheel    2172  5 25 13:50 mysql_time.h\
+-rw-r--r--   1 root  wheel    1013  5 25 16:18 mysql_version.h\
+-rw-r--r--   1 root  wheel  118402  5 25 16:20 mysqld_ername.h\
+-rw-r--r--   1 root  wheel   43196  5 25 16:20 mysqld_error.h\
+-rw-r--r--   1 root  wheel   26101  5 25 13:50 plugin.h\
+-rw-r--r--   1 root  wheel   17543  5 25 13:50 plugin_audit.h\
+-rw-r--r--   1 root  wheel    7644  5 25 13:50 plugin_ftparser.h\
+-rw-r--r--   1 root  wheel    5664  5 25 13:50 plugin_group_replication.h\
+-rw-r--r--   1 root  wheel    3741  5 25 13:50 plugin_keyring.h\
+-rw-r--r--   1 root  wheel    1583  5 25 13:50 plugin_validate_password.h\
+-rw-r--r--   1 root  wheel    7711  5 25 13:50 sql_common.h\
+-rw-r--r--   1 root  wheel   14902  5 25 16:20 sql_state.h\
+-rw-r--r--   1 root  wheel    2222  5 25 13:50 sslopt-case.h\
+-rw-r--r--   1 root  wheel    2878  5 25 13:50 sslopt-longopts.h\
+-rw-r--r--   1 root  wheel    2884  5 25 13:50 sslopt-vars.h\
+-rw-r--r--   1 root  wheel    5148  5 25 13:50 thr_cond.h\
+-rw-r--r--   1 root  wheel    5679  5 25 13:50 thr_mutex.h\
+-rw-r--r--   1 root  wheel    6044  5 25 13:50 thr_rwlock.h\
+-rw-r--r--   1 root  wheel    2282  5 25 13:50 typelib.h\
+localhost:include lixiaoyan$ cd ~/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ls -la\
+total 160\
+drwxr-xr-x@ 11 lixiaoyan  staff    374  8 24 15:58 .\
+drwx------@  6 lixiaoyan  staff    204  8 24 16:01 ..\
+-rw-r--r--@  1 lixiaoyan  staff   6148  8 24 15:58 .DS_Store\
+-rw-r--r--@  1 lixiaoyan  staff     74  5  2  2006 CREDITS\
+-rw-r--r--@  1 lixiaoyan  staff   4066  5  2  2006 config.m4\
+-rw-r--r--@  1 lixiaoyan  staff  15195  5  2  2006 mysql_driver.c\
+-rw-r--r--@  1 lixiaoyan  staff  16655  5  2  2006 mysql_statement.c\
+-rw-r--r--@  1 lixiaoyan  staff   3544  5  2  2006 pdo_mysql.c\
+-rw-r--r--@  1 lixiaoyan  staff   1828  5  2  2006 php_pdo_mysql.h\
+-rw-r--r--@  1 lixiaoyan  staff   2886  5  2  2006 php_pdo_mysql_int.h\
+-rw-r--r--@  1 lixiaoyan  staff  12722  5  2  2006 php_pdo_mysql_sqlstate.h\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ phpize\
+Configuring for:\
+PHP Api Version:         20151012\
+Zend Module Api No:      20151012\
+Zend Extension Api No:   320151012\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql\
+checking for grep that handles long lines and -e... /usr/bin/grep\
+checking for egrep... /usr/bin/grep -E\
+checking for a sed that does not truncate output... /usr/bin/sed\
+checking for cc... cc\
+checking whether the C compiler works... yes\
+checking for C compiler default output file name... a.out\
+checking for suffix of executables... \
+checking whether we are cross compiling... no\
+checking for suffix of object files... o\
+checking whether we are using the GNU C compiler... yes\
+checking whether cc accepts -g... yes\
+checking for cc option to accept ISO C89... none needed\
+checking how to run the C preprocessor... cc -E\
+checking for icc... no\
+checking for suncc... no\
+checking whether cc understands -c and -o together... yes\
+checking for system library directory... lib\
+checking if compiler supports -R... no\
+checking if compiler supports -Wl,-rpath,... yes\
+checking build system type... x86_64-apple-darwin14.5.0\
+checking host system type... x86_64-apple-darwin14.5.0\
+checking target system type... x86_64-apple-darwin14.5.0\
+checking for PHP prefix... /usr/local/Cellar/php70/7.0.10_1\
+checking for PHP includes... -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib\
+checking for PHP extension directory... /usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012\
+checking for PHP installed headers prefix... /usr/local/Cellar/php70/7.0.10_1/include/php\
+checking if debug is enabled... no\
+checking if zts is enabled... no\
+checking for re2c... no\
+configure: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.\
+checking for gawk... no\
+checking for nawk... no\
+checking for awk... awk\
+checking if awk is broken... no\
+checking for MySQL support for PDO... yes, shared\
+checking for mysql_config... /usr/local/mysql/bin/mysql_config\
+checking for mysql_query in -lmysqlclient... yes\
+checking for mysql_commit... yes\
+checking for mysql_stmt_prepare... yes\
+checking for mysql_next_result... yes\
+checking for mysql_sqlstate... yes\
+checking for PDO includes... checking for PDO includes... /usr/local/Cellar/php70/7.0.10_1/include/php/ext\
+checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld\
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no\
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r\
+checking for BSD-compatible nm... /usr/bin/nm\
+checking whether ln -s works... yes\
+checking how to recognize dependent libraries... pass_all\
+checking for ANSI C header files... yes\
+checking for sys/types.h... yes\
+checking for sys/stat.h... yes\
+checking for stdlib.h... yes\
+checking for string.h... yes\
+checking for memory.h... yes\
+checking for strings.h... yes\
+checking for inttypes.h... yes\
+checking for stdint.h... yes\
+checking for unistd.h... yes\
+checking dlfcn.h usability... yes\
+checking dlfcn.h presence... yes\
+checking for dlfcn.h... yes\
+checking the maximum length of command line arguments... 196608\
+checking command to parse /usr/bin/nm output from cc object... ok\
+checking for objdir... .libs\
+checking for ar... ar\
+checking for ranlib... ranlib\
+checking for strip... strip\
+checking for dsymutil... dsymutil\
+checking for nmedit... nmedit\
+checking for -single_module linker flag... yes\
+checking for -exported_symbols_list linker flag... yes\
+checking if cc supports -fno-rtti -fno-exceptions... yes\
+checking for cc option to produce PIC... -fno-common\
+checking if cc PIC flag -fno-common works... yes\
+checking if cc static flag -static works... no\
+checking if cc supports -c -o file.o... yes\
+checking whether the cc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes\
+checking dynamic linker characteristics... darwin14.5.0 dyld\
+checking how to hardcode library paths into programs... immediate\
+checking whether stripping libraries is possible... yes\
+checking if libtool supports shared libraries... yes\
+checking whether to build shared libraries... yes\
+checking whether to build static libraries... no\
+\
+creating libtool\
+appending configuration tag "CXX" to libtool\
+configure: creating ./config.status\
+config.status: creating config.h\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql/\
+checking for grep that handles long lines and -e... /usr/bin/grep\
+checking for egrep... /usr/bin/grep -E\
+checking for a sed that does not truncate output... /usr/bin/sed\
+checking for cc... cc\
+checking whether the C compiler works... yes\
+checking for C compiler default output file name... a.out\
+checking for suffix of executables... \
+checking whether we are cross compiling... no\
+checking for suffix of object files... o\
+checking whether we are using the GNU C compiler... yes\
+checking whether cc accepts -g... yes\
+checking for cc option to accept ISO C89... none needed\
+checking how to run the C preprocessor... cc -E\
+checking for icc... no\
+checking for suncc... no\
+checking whether cc understands -c and -o together... yes\
+checking for system library directory... lib\
+checking if compiler supports -R... no\
+checking if compiler supports -Wl,-rpath,... yes\
+checking build system type... x86_64-apple-darwin14.5.0\
+checking host system type... x86_64-apple-darwin14.5.0\
+checking target system type... x86_64-apple-darwin14.5.0\
+checking for PHP prefix... /usr/local/Cellar/php70/7.0.10_1\
+checking for PHP includes... -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib\
+checking for PHP extension directory... /usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012\
+checking for PHP installed headers prefix... /usr/local/Cellar/php70/7.0.10_1/include/php\
+checking if debug is enabled... no\
+checking if zts is enabled... no\
+checking for re2c... no\
+configure: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.\
+checking for gawk... no\
+checking for nawk... no\
+checking for awk... awk\
+checking if awk is broken... no\
+checking for MySQL support for PDO... yes, shared\
+checking for mysql_config... /usr/local/mysql//bin/mysql_config\
+checking for mysql_query in -lmysqlclient... yes\
+checking for mysql_commit... yes\
+checking for mysql_stmt_prepare... yes\
+checking for mysql_next_result... yes\
+checking for mysql_sqlstate... yes\
+checking for PDO includes... checking for PDO includes... /usr/local/Cellar/php70/7.0.10_1/include/php/ext\
+checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld\
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no\
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r\
+checking for BSD-compatible nm... /usr/bin/nm\
+checking whether ln -s works... yes\
+checking how to recognize dependent libraries... pass_all\
+checking for ANSI C header files... yes\
+checking for sys/types.h... yes\
+checking for sys/stat.h... yes\
+checking for stdlib.h... yes\
+checking for string.h... yes\
+checking for memory.h... yes\
+checking for strings.h... yes\
+checking for inttypes.h... yes\
+checking for stdint.h... yes\
+checking for unistd.h... yes\
+checking dlfcn.h usability... yes\
+checking dlfcn.h presence... yes\
+checking for dlfcn.h... yes\
+checking the maximum length of command line arguments... 196608\
+checking command to parse /usr/bin/nm output from cc object... ok\
+checking for objdir... .libs\
+checking for ar... ar\
+checking for ranlib... ranlib\
+checking for strip... strip\
+checking for dsymutil... dsymutil\
+checking for nmedit... nmedit\
+checking for -single_module linker flag... yes\
+checking for -exported_symbols_list linker flag... yes\
+checking if cc supports -fno-rtti -fno-exceptions... yes\
+checking for cc option to produce PIC... -fno-common\
+checking if cc PIC flag -fno-common works... yes\
+checking if cc static flag -static works... no\
+checking if cc supports -c -o file.o... yes\
+checking whether the cc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes\
+checking dynamic linker characteristics... darwin14.5.0 dyld\
+checking how to hardcode library paths into programs... immediate\
+checking whether stripping libraries is possible... yes\
+checking if libtool supports shared libraries... yes\
+checking whether to build shared libraries... yes\
+checking whether to build static libraries... no\
+\
+creating libtool\
+appending configuration tag "CXX" to libtool\
+configure: creating ./config.status\
+config.status: creating config.h\
+config.status: config.h is unchanged\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql//include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql//include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ echo $MYSQL_HOME\
+/usr/local/mysql-5.7.13-osx10.11-x86_64\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql-5.7.13-osx10.11-x86_64\
+checking for grep that handles long lines and -e... /usr/bin/grep\
+checking for egrep... /usr/bin/grep -E\
+checking for a sed that does not truncate output... /usr/bin/sed\
+checking for cc... cc\
+checking whether the C compiler works... yes\
+checking for C compiler default output file name... a.out\
+checking for suffix of executables... \
+checking whether we are cross compiling... no\
+checking for suffix of object files... o\
+checking whether we are using the GNU C compiler... yes\
+checking whether cc accepts -g... yes\
+checking for cc option to accept ISO C89... none needed\
+checking how to run the C preprocessor... cc -E\
+checking for icc... no\
+checking for suncc... no\
+checking whether cc understands -c and -o together... yes\
+checking for system library directory... lib\
+checking if compiler supports -R... no\
+checking if compiler supports -Wl,-rpath,... yes\
+checking build system type... x86_64-apple-darwin14.5.0\
+checking host system type... x86_64-apple-darwin14.5.0\
+checking target system type... x86_64-apple-darwin14.5.0\
+checking for PHP prefix... /usr/local/Cellar/php70/7.0.10_1\
+checking for PHP includes... -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib\
+checking for PHP extension directory... /usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012\
+checking for PHP installed headers prefix... /usr/local/Cellar/php70/7.0.10_1/include/php\
+checking if debug is enabled... no\
+checking if zts is enabled... no\
+checking for re2c... no\
+configure: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.\
+checking for gawk... no\
+checking for nawk... no\
+checking for awk... awk\
+checking if awk is broken... no\
+checking for MySQL support for PDO... yes, shared\
+checking for mysql_config... /usr/local/mysql-5.7.13-osx10.11-x86_64/bin/mysql_config\
+checking for mysql_query in -lmysqlclient... yes\
+checking for mysql_commit... yes\
+checking for mysql_stmt_prepare... yes\
+checking for mysql_next_result... yes\
+checking for mysql_sqlstate... yes\
+checking for PDO includes... checking for PDO includes... /usr/local/Cellar/php70/7.0.10_1/include/php/ext\
+checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld\
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no\
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r\
+checking for BSD-compatible nm... /usr/bin/nm\
+checking whether ln -s works... yes\
+checking how to recognize dependent libraries... pass_all\
+checking for ANSI C header files... yes\
+checking for sys/types.h... yes\
+checking for sys/stat.h... yes\
+checking for stdlib.h... yes\
+checking for string.h... yes\
+checking for memory.h... yes\
+checking for strings.h... yes\
+checking for inttypes.h... yes\
+checking for stdint.h... yes\
+checking for unistd.h... yes\
+checking dlfcn.h usability... yes\
+checking dlfcn.h presence... yes\
+checking for dlfcn.h... yes\
+checking the maximum length of command line arguments... 196608\
+checking command to parse /usr/bin/nm output from cc object... ok\
+checking for objdir... .libs\
+checking for ar... ar\
+checking for ranlib... ranlib\
+checking for strip... strip\
+checking for dsymutil... dsymutil\
+checking for nmedit... nmedit\
+checking for -single_module linker flag... yes\
+checking for -exported_symbols_list linker flag... yes\
+checking if cc supports -fno-rtti -fno-exceptions... yes\
+checking for cc option to produce PIC... -fno-common\
+checking if cc PIC flag -fno-common works... yes\
+checking if cc static flag -static works... no\
+checking if cc supports -c -o file.o... yes\
+checking whether the cc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes\
+checking dynamic linker characteristics... darwin14.5.0 dyld\
+checking how to hardcode library paths into programs... immediate\
+checking whether stripping libraries is possible... yes\
+checking if libtool supports shared libraries... yes\
+checking whether to build shared libraries... yes\
+checking whether to build static libraries... no\
+\
+creating libtool\
+appending configuration tag "CXX" to libtool\
+configure: creating ./config.status\
+config.status: creating config.h\
+config.status: config.h is unchanged\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ make\
+/bin/sh /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/libtool --mode=compile cc -I -I/usr/local/mysql-5.7.13-osx10.11-x86_64/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib  -DHAVE_CONFIG_H  -g -O2   -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c -o pdo_mysql.lo \
+mkdir .libs\
+ cc -I -I/usr/local/mysql-5.7.13-osx10.11-x86_64/include -fno-omit-frame-pointer -arch x86_64 -I. -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -DPHP_ATOM_INC -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/include -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/main -I/Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2 -I/usr/local/Cellar/php70/7.0.10_1/include/php -I/usr/local/Cellar/php70/7.0.10_1/include/php/main -I/usr/local/Cellar/php70/7.0.10_1/include/php/TSRM -I/usr/local/Cellar/php70/7.0.10_1/include/php/Zend -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext -I/usr/local/Cellar/php70/7.0.10_1/include/php/ext/date/lib -DHAVE_CONFIG_H -g -O2 -c /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c  -fno-common -DPIC -o .libs/pdo_mysql.o\
+In file included from /Users/lixiaoyan/Desktop/PDO_MYSQL-1.0.2-2/PDO_MYSQL-1.0.2/pdo_mysql.c:31:\
+
+\f1\b ./php_pdo_mysql_int.h:25:10: \cf2 fatal error: \cf0 'mysql.h' file not found
+\f0\b0 \
+#include <mysql.h>\
+
+\f1\b \cf3          ^
+\f0\b0 \cf0 \
+1 error generated.\
+make: *** [pdo_mysql.lo] Error 1\
+localhost:PDO_MYSQL-1.0.2 lixiaoyan$ cd $MYSQL_HOME\
+localhost:mysql-5.7.13-osx10.11-x86_64 lixiaoyan$ ls -la\
+total 48\
+drwxr-xr-x  12 root       wheel     408  7 12 15:50 .\
+drwxrwxr-x  27 lixiaoyan  admin     918  8 22 15:48 ..\
+-rw-r--r--   1 root       wheel   17987  5 25 13:50 COPYING\
+-rw-r--r--   1 root       wheel    2478  5 25 13:50 README\
+drwxr-xr-x  40 root       wheel    1360  5 25 17:14 bin\
+drwxr-x---  15 _mysql     _mysql    510  8 24 14:55 data\
+drwxr-xr-x   5 root       wheel     170  5 25 17:14 docs\
+drwxr-xr-x  50 root       wheel    1700  5 25 17:13 include\
+drwxr-xr-x  11 root       wheel     374  7 12 15:50 lib\
+drwxr-xr-x   4 root       wheel     136  5 25 17:14 man\
+drwxr-xr-x  39 root       wheel    1326  5 25 17:14 share\
+drwxr-xr-x   7 root       wheel     238  5 25 17:14 support-files\
+localhost:mysql-5.7.13-osx10.11-x86_64 lixiaoyan$ cd include/\
+localhost:include lixiaoyan$ ls -la\
+total 1208\
+drwxr-xr-x  50 root  wheel    1700  5 25 17:13 .\
+drwxr-xr-x  12 root  wheel     408  7 12 15:50 ..\
+-rw-r--r--   1 root  wheel    3654  5 25 13:50 big_endian.h\
+-rw-r--r--   1 root  wheel    1967  5 25 13:50 binary_log_types.h\
+-rw-r--r--   1 root  wheel    2555  5 25 13:50 byte_order_generic.h\
+-rw-r--r--   1 root  wheel    2190  5 25 13:50 byte_order_generic_x86.h\
+-rw-r--r--   1 root  wheel    5175  5 25 13:50 decimal.h\
+-rw-r--r--   1 root  wheel    4350  5 25 13:50 errmsg.h\
+-rw-r--r--   1 root  wheel    7489  5 25 13:50 keycache.h\
+-rw-r--r--   1 root  wheel    3233  5 25 13:50 little_endian.h\
+-rw-r--r--   1 root  wheel   34282  5 25 13:50 m_ctype.h\
+-rw-r--r--   1 root  wheel   10722  5 25 13:50 m_string.h\
+-rw-r--r--   1 root  wheel    2312  5 25 13:50 my_alloc.h\
+-rw-r--r--   1 root  wheel    5488  5 25 13:50 my_byteorder.h\
+-rw-r--r--   1 root  wheel    1667  5 25 13:50 my_command.h\
+-rw-r--r--   1 root  wheel    5130  5 25 13:50 my_compiler.h\
+-rw-r--r--   1 root  wheel   11835  5 25 16:18 my_config.h\
+-rw-r--r--   1 root  wheel    9391  5 25 13:50 my_dbug.h\
+-rw-r--r--   1 root  wheel    3012  5 25 13:50 my_dir.h\
+-rw-r--r--   1 root  wheel    6456  5 25 13:50 my_getopt.h\
+-rw-r--r--   1 root  wheel   22412  5 25 13:50 my_global.h\
+-rw-r--r--   1 root  wheel    1506  5 25 13:50 my_list.h\
+-rw-r--r--   1 root  wheel   39204  5 25 13:50 my_sys.h\
+-rw-r--r--   1 root  wheel    4686  5 25 13:50 my_thread.h\
+-rw-r--r--   1 root  wheel    2566  5 25 13:50 my_thread_local.h\
+-rw-r--r--   1 root  wheel    2821  5 25 13:50 my_xml.h\
+drwxr-xr-x  48 root  wheel    1632  5 25 17:13 mysql\
+-rw-r--r--   1 root  wheel   29172  5 25 13:50 mysql.h\
+-rw-r--r--   1 root  wheel   24466  5 25 13:50 mysql_com.h\
+-rw-r--r--   1 root  wheel    1313  5 25 13:50 mysql_com_server.h\
+-rw-r--r--   1 root  wheel    1142  5 25 13:50 mysql_embed.h\
+-rw-r--r--   1 root  wheel    2172  5 25 13:50 mysql_time.h\
+-rw-r--r--   1 root  wheel    1013  5 25 16:18 mysql_version.h\
+-rw-r--r--   1 root  wheel  118402  5 25 16:20 mysqld_ername.h\
+-rw-r--r--   1 root  wheel   43196  5 25 16:20 mysqld_error.h\
+-rw-r--r--   1 root  wheel   26101  5 25 13:50 plugin.h\
+-rw-r--r--   1 root  wheel   17543  5 25 13:50 plugin_audit.h\
+-rw-r--r--   1 root  wheel    7644  5 25 13:50 plugin_ftparser.h\
+-rw-r--r--   1 root  wheel    5664  5 25 13:50 plugin_group_replication.h\
+-rw-r--r--   1 root  wheel    3741  5 25 13:50 plugin_keyring.h\
+-rw-r--r--   1 root  wheel    1583  5 25 13:50 plugin_validate_password.h\
+-rw-r--r--   1 root  wheel    7711  5 25 13:50 sql_common.h\
+-rw-r--r--   1 root  wheel   14902  5 25 16:20 sql_state.h\
+-rw-r--r--   1 root  wheel    2222  5 25 13:50 sslopt-case.h\
+-rw-r--r--   1 root  wheel    2878  5 25 13:50 sslopt-longopts.h\
+-rw-r--r--   1 root  wheel    2884  5 25 13:50 sslopt-vars.h\
+-rw-r--r--   1 root  wheel    5148  5 25 13:50 thr_cond.h\
+-rw-r--r--   1 root  wheel    5679  5 25 13:50 thr_mutex.h\
+-rw-r--r--   1 root  wheel    6044  5 25 13:50 thr_rwlock.h\
+-rw-r--r--   1 root  wheel    2282  5 25 13:50 typelib.h\
+localhost:include lixiaoyan$ cd ../\
+localhost:mysql-5.7.13-osx10.11-x86_64 lixiaoyan$ ./configure -with-php-config=/usr/local/Cellar/php70/7.0.10_1/bin/php-config -with-pdo-mysql=/usr/local/mysql/\
+}
